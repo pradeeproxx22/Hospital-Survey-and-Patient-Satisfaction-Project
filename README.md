@@ -2,19 +2,54 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=30&duration=3500&pause=1000&color=0EA5E9&center=true&vCenter=true&width=950&lines=🏥+Healthcare+Service+Quality+%26+Patient+Satisfaction;📊+Survey+Data+Analysis+with+Machine+Learning;🤖+Artificial+Neural+Network+Implementation;💙+Turning+Healthcare+Data+into+Actionable+Insights" />
 </p>
 
-# Hospital-Survey-and-Patient-Satisfaction-Project
-      ## Dataset Notice
+# 🏥 Healthcare Service Quality & Patient Satisfaction Analysis
 
-This project is based on a healthcare service quality and patient satisfaction survey.
+An **End-to-End Data Science Project** that analyzes hospital service quality and predicts patient satisfaction using **Machine Learning, Power BI, and Flask**.
 
-The dataset used for model development consists of:
-- 89 real survey responses collected by the author.
-- Additional synthetic records generated with the assistance of ChatGPT to increase the dataset size for educational experimentation and Artificial Neural Network (ANN) training.
+## 🚀 Project Highlights
+- 📋 Data collected using Google Forms
+- 🧹 Data Cleaning & Preprocessing
+- 📊 Exploratory Data Analysis (EDA)
+- 🤖 Machine Learning Model Building
+- 📈 Interactive Power BI Dashboard
+- 🌐 Flask Web Application for Prediction
 
-The synthetic records were used only to support model development and do not represent additional real participants.
+## 🛠️ Technologies Used
+- Python
+- Pandas & NumPy
+- Scikit-learn
+- Power BI
+- Flask
+- Git & GitHub
 
-All personally identifiable information has been removed. The original survey responses are not publicly shared to protect participant privacy and confidentiality.
- 
- 
- 
- End-to-end Data Science project on Hospital Service and Patient Satisfaction. Data collected via Google Forms and processed using data cleaning, EDA, transformation, and Power BI visualization. Machine Learning in Python is used to analyze patterns and predict satisfaction, highlighting key factors like waiting time and staff behaviour.
+## 📂 Project Workflow
+
+```
+Survey Data
+     ↓
+Data Cleaning
+     ↓
+EDA
+     ↓
+Machine Learning
+     ↓
+Power BI Dashboard
+     ↓
+Flask Deployment
+```
+
+## 📷 Dashboard Preview
+
+*(Add your Power BI dashboard screenshot here)*
+
+```markdown
+![Dashboard](PowerBI/Dashboard_Screenshot.png)
+```
+
+## 👨‍💻 Author
+
+**Pradeep Jogi**  
+🎓 MCA Student | Sri Balaji University, Pune  
+💡 Aspiring Data Scientist | Machine Learning Enthusiast
+
+⭐ If you found this project helpful, don't forget to **Star** this repository!
