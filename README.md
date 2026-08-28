@@ -38,7 +38,7 @@ The model predicts:
 
 ### 🚀 Live Prediction
 
-👉 **[Click Here to Try the Healthcare Recommendation Model](YOUR_LIVE_MODEL_URL)**
+👉 **[Click Here to Try the Healthcare Recommendation Model](https://hospital-survey-and-patient-satisfaction.onrender.com?utm_source=chatgpt.com)**
 
 Enter patient information and the model will generate a **Yes / No / Maybe** recommendation.
 
