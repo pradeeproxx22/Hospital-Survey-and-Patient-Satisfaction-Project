@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Healthcare Service Recommendation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <h1>Healthcare Service Recommendation</h1>
+
+    <p>Enter patient details to get a recommendation.</p>
+
+    <form action="/predict" method="POST">
+
+        <!-- 1. Gender -->
+        <label>Gender:</label>
+        <select name="Gender" required>
+            <option value="0">Female</option>
+            <option value="1">Male</option>
+        </select>
+
+        <br><br>
+
+
+        <!-- 2. Hospital Type -->
+        <label>Hospital Type:</label>
+        <select name="Hospital Type" required>
+            <option value="0">Government</option>
+            <option value="1">Private</option>
+            <option value="2">Private clinic</option>
+        </select>
+
+        <br><br>
+
+
+        <!-- 3. Visit Type -->
+        <label>Visit Type:</label>
+        <select name="Visit Type" required>
+            <option value="0">Emergency</option>
+            <option value="1">Follow-up/Routine Checkup</option>
+            <option value="2">In-Patient (Admitted/Hospitalized)</option>
+            <option value="3">OPD (Doctor Consultation )</option>
+        </select>
+
+        <br><br>
+
+
+        <!-- 4. Waiting Time -->
+        <label>Waiting Time:</label>
+        <select name="Waiting Time" required>
+            <option value="0">15-30 minutes</option>
+            <option value="1">30-60 minutes</option>
+            <option value="2">Less than 15 minutes</option>
+            <option value="3">More than 1 hour</option>
+        </select>
+
+        <br><br>
+
+
+        <!-- 5. Nurse Staff Behaviour -->
+        <label>Nurse Staff Behaviour:</label>
+        <select name="Nurse Staff Behaviour" required>
+            <option value="0">Agree</option>
+            <option value="1">Disagree</option>
+            <option value="2">Neutral</option>
+            <option value="3">Strongly Agree</option>
+            <option value="4">Strongly Disagree</option>
+        </select>
+
+        <br><br>
+
+
+        <!-- 6. Doctor Communication -->
+        <label>Doctor Communication:</label>
+        <select name="Doctor Communication" required>
+            <option value="0">Agree</option>
+            <option value="1">Disagree</option>
+            <option value="2">Neutral</option>
+            <option value="3">Strongly Agree</option>
+            <option value="4">Strongly Disagree</option>
+        </select>
+
+        <br><br>
+
+
+        <!-- 7. Hospital Cleanliness -->
+        <label>Hospital Cleanliness:</label>
+        <select name="Hospital Cleanliness" required>
+            <option value="0">Agree</option>
+            <option value="1">Disagree</option>
+            <option value="2">Neutral</option>
+            <option value="3">Strongly Agree</option>
+            <option value="4">Strongly Disagree</option>
+        </select>
+
+        <br><br>
+
+
+        <!-- 8. Overall Satisfaction -->
+        <label>Overall Satisfaction:</label>
+        <input type="number"
+               name="Overall Satisfaction"
+               min="1"
+               max="5"
+               required>
+
+        <br><br>
+
+
+        <!-- 9. Return Intention -->
+        <label>Return Intention:</label>
+        <input type="number"
+               name="Return Intention"
+               min="1"
+               max="5"
+               required>
+
+        <br><br>
+
+        <label>Biggest Problem:</label>
+        <select name="Biggest Problem" required>
+        <option value="0">Cost</option>
+        <option value="1">Long lines</option>
+        <option value="2">Rude staff behavior</option>
+        <option value="3">Short consultation</option>
+    </select>
+
+<br><br>
+
+
+        <!-- 11. Treatment Quality -->
+        <label>Treatment Quality:</label>
+        <input type="number"
+               name="Treatment Quality"
+               min="1"
+               max="5"
+               required>
+
+        <br><br>
+
+         <label>Waiting Area Facilities:</label>
+<select name="Waiting Area Facilities" required>
+    <option value="0">Agree</option>
+    <option value="1">Disagree</option>
+    <option value="2">Neutral</option>
+    <option value="3">Strongly Agree</option>
+    <option value="4">Strongly Disagree</option>
+</select>
+
+<br><br>
+        
+
+        <!-- 13. Respect Privacy -->
+          <label>Respect Privacy:</label>
+<select name="Respect Privacy" required>
+    <option value="0">Agree</option>
+    <option value="1">Disagree</option>
+    <option value="2">Neutral</option>
+    <option value="3">Strongly Agree</option>
+    <option value="4">Strongly Disagree</option>
+</select>
+
+<br><br>  
+
+
+        <!-- 14. Medicine Explanation -->
+       <label>Medicine Explanation:</label>
+<select name="Medicine Explanation" required>
+    <option value="0">Agree</option>
+    <option value="1">Disagree</option>
+    <option value="2">Neutral</option>
+    <option value="3">Strongly Agree</option>
+    <option value="4">Strongly Disagree</option>
+</select>
+
+<br><br>
+
+
+        <!-- 15. Charges -->
+        <label>Charges:</label>
+        <select name="Charges" required>
+            <option value="0">Cheap</option>
+            <option value="1">Expensive</option>
+            <option value="2">Reasonable</option>
+            <option value="3">Very expensive</option>
+        </select>
+
+        <br><br>
+
+
+        <!-- 16. Occupation -->
+        <label>Occupation:</label>
+        <select name="Occupation" required>
+            <option value="0">Business</option>
+            <option value="1">Government Job</option>
+            <option value="2">Homemaker</option>
+            <option value="3">Private Job</option>
+            <option value="4">Self-Employed</option>
+            <option value="5">Student</option>
+            <option value="6">Youtuber & Influencer</option>
+        </select>
+
+        <br><br>
+
+
+        <!-- 17. Age1 -->
+        <label>Age:</label>
+        <input type="number"
+               name="Age1"
+               min="15"
+               max="100"
+               required>
+
+        <br><br>
+
+
+        <!-- 18. Nurse Staff Behaviour Score -->
+        <label>Nurse Staff Behaviour Score:</label>
+        <input type="number"
+               name="Nurse Staff Behaviour Score"
+               required>
+
+        <br><br>
+
+
+        <!-- 19. Hospital Cleanliness Score -->
+        <label>Hospital Cleanliness Score:</label>
+        <input type="number"
+               name="Hospital Cleanliness Score"
+               required>
+
+        <br><br>
+
+
+        <!-- 20. Waiting Time Number -->
+        <label>Waiting Time Number:</label>
+        <input type="number"
+               name="Waiting Time Number"
+               required>
+
+        <br><br>
+
+
+        <button type="submit">
+            Predict Recommendation
+        </button>
+
+    </form>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
