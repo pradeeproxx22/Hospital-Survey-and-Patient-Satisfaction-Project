@@ -42,7 +42,6 @@ The model predicts:
 
 Enter patient information and the model will generate a **Yes / No / Maybe** recommendation.
 
-> The live prediction link will be available after deployment.
 
 ---
 
