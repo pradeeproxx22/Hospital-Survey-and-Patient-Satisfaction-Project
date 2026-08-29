@@ -4,6 +4,13 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=30&duration=3500&pause=1000&color=0EA5E9&center=true&vCenter=true&width=950&lines=🏥+Healthcare+Service+Quality+%26+Patient+Satisfaction;📊+Survey+Data+Analysis+with+Machine+Learning;🤖+Machine+Learning+Based+Recommendation;💙+Turning+Healthcare+Data+into+Actionable+Insights" />
 </p>
 
+
+## 🌐 Try the Model
+
+### 🚀 Live Prediction
+
+👉 **[Click Here to Try the Healthcare Recommendation Model](https://hospital-survey-and-patient-satisfaction.onrender.com?utm_source=chatgpt.com)**
+
 ---
 
 ## 📌 About the Project
@@ -34,11 +41,6 @@ The model predicts:
 
 ---
 
-## 🌐 Try the Model
-
-### 🚀 Live Prediction
-
-👉 **[Click Here to Try the Healthcare Recommendation Model](https://hospital-survey-and-patient-satisfaction.onrender.com?utm_source=chatgpt.com)**
 
 Enter patient information and the model will generate a **Yes / No / Maybe** recommendation.
 
