@@ -11,7 +11,11 @@
 
 👉 **[Click Here to Try the Healthcare Recommendation Model](https://hospital-survey-and-patient-satisfaction.onrender.com?utm_source=chatgpt.com)**
 
----
+## 🖥️ Project Interface
+
+<p align="center">
+  <img src="images/healthcareimg.png" width="900">
+</p>
 
 ## 📌 About the Project
 
