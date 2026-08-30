@@ -14,7 +14,7 @@
 ## 🖥️ Project Interface
 
 <p align="center">
-  <img src="images/healthcareimg.png" width="900">
+  <img src="images/healtcareimg.png" width="900">
 </p>
 
 ## 📌 About the Project
