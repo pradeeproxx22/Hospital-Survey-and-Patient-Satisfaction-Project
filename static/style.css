@@ -758,8 +758,128 @@ section { padding: 64px 0; }
 }
 
 /* ===========================================================
-   Assessment form (predict page) + Result page
+   Ambient background mesh (eye-catching, sits behind everything)
    =========================================================== */
+
+.bg-mesh {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  background: var(--paper);
+  pointer-events: none;
+}
+
+.bg-mesh span {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(70px);
+  opacity: 0.55;
+  animation: floatBlob ease-in-out infinite;
+}
+
+.bg-mesh span:nth-child(1) {
+  width: 420px; height: 420px;
+  background: var(--pulse-soft);
+  top: -140px; left: -100px;
+  animation-duration: 26s;
+}
+
+.bg-mesh span:nth-child(2) {
+  width: 380px; height: 380px;
+  background: #CFE3DC;
+  top: 12%; right: -160px;
+  animation-duration: 31s;
+  animation-delay: -6s;
+}
+
+.bg-mesh span:nth-child(3) {
+  width: 320px; height: 320px;
+  background: #E4D9F4;
+  bottom: -120px; left: 18%;
+  animation-duration: 24s;
+  animation-delay: -12s;
+}
+
+.bg-mesh span:nth-child(4) {
+  width: 280px; height: 280px;
+  background: #D8ECF3;
+  bottom: 8%; right: 8%;
+  animation-duration: 29s;
+  animation-delay: -18s;
+}
+
+@keyframes floatBlob {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33%      { transform: translate(30px, -24px) scale(1.08); }
+  66%      { transform: translate(-24px, 26px) scale(0.95); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bg-mesh span { animation: none; }
+}
+
+/* ===========================================================
+   About / signature section
+   =========================================================== */
+
+.signature-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 36px 40px;
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  flex-wrap: wrap;
+  box-shadow: 0 20px 44px -30px rgba(16, 35, 31, 0.25);
+}
+
+.signature-avatar {
+  flex: none;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--ink);
+  color: var(--paper);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 21px;
+  letter-spacing: 0.02em;
+}
+
+.signature-body { flex: 1 1 240px; }
+
+.signature-body h3 { font-size: 19px; }
+
+.signature-body p {
+  margin: 6px 0 0;
+  color: var(--ink-soft);
+  font-size: 14px;
+}
+
+.signature-actions { flex: none; }
+
+.btn-pill.small { padding: 10px 20px; font-size: 12px; }
+
+/* ===========================================================
+   Result page credit line
+   =========================================================== */
+
+.result-credit {
+  margin-top: 32px;
+  font-size: 12.5px;
+  color: var(--ink-soft);
+}
+
+.result-credit a {
+  color: var(--tag);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
 
 .compact-header {
   border-bottom: 1px solid var(--line);
@@ -1026,4 +1146,18 @@ section { padding: 64px 0; }
   .segmented { flex-direction: column; }
   .segmented label { border-right: none; border-bottom: 1px solid var(--line); }
   .segmented label:last-of-type { border-bottom: none; }
+}
+
+/* ---------------------------------------------------------
+   Footer credit link
+   --------------------------------------------------------- */
+
+.footer-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: var(--pulse);
+  text-decoration: underline;
 }
