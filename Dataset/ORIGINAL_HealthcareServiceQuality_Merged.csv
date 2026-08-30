@@ -1,0 +1,309 @@
+Gender,Age,Hospital Type,Visit Type,Waiting Time,Nurse Staff Behaviour,Doctor Communication,Hospital Cleanliness,Overall Satisfaction,Return Intention,Biggest Problem,Recommendation,Treatment Quality,Waiting Area Facilities,Respect Privacy,Medicine Explanation,Charges,Occupation,Age1,Nurse Staff Behaviour Score,Hospital Cleanliness Score,Overall_satisfaction_Avergae,Waiting Time Number
+Male,15-25,Government,Follow-up/Routine Checkup,30-60 minutes,Neutral,Agree,Disagree,4,3,Long lines,Yes,2,Disagree,Neutral,Agree,Reasonable,Student,65,3,2,3.038461538,45
+Female,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Strongly Disagree,Strongly Disagree,Strongly Disagree,3,3,Long lines,Maybe,4,Neutral,Agree,Agree,Expensive,Student,65,1,1,3.038461538,22
+Female,15-25,Private clinic,OPD (Doctor Consultation ),Less than 15 minutes,Strongly Agree,Strongly Agree,Strongly Agree,1,3,,Yes,5,Strongly Agree,Strongly Agree,Strongly Agree,Reasonable,Student,65,5,5,3.038461538,10
+Male,25-35,Private clinic,OPD (Doctor Consultation ),15-30 minutes,Agree,Strongly Agree,Strongly Agree,3,3,Cost,Maybe,3,Strongly Agree,Agree,Agree,Expensive,Private Job,30,4,5,3.038461538,22
+Male,15-25,Private clinic,OPD (Doctor Consultation ),15-30 minutes,Agree,Strongly Agree,Agree,4,3,Long lines,Yes,4,Agree,Agree,Agree,Reasonable,Student,65,4,4,3.038461538,22
+Male,15-25,Government,OPD (Doctor Consultation ),15-30 minutes,Neutral,Neutral,Neutral,3,2,Short consultation,Maybe,3,Neutral,Neutral,Neutral,Expensive,Student,65,3,3,3.038461538,22
+Male,15-25,Private,OPD (Doctor Consultation ),Less than 15 minutes,Neutral,Neutral,Agree,3,2,Long lines,Maybe,3,Neutral,Neutral,Neutral,Reasonable,Student,65,3,4,3.038461538,10
+Female,15-25,Government,OPD (Doctor Consultation ),15-30 minutes,Agree,Neutral,Neutral,3,2,Rude staff behavior,Maybe,3,Neutral,Neutral,Neutral,Reasonable,Student,65,4,3,3.038461538,22
+Male,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Agree,Agree,Agree,4,2,Cost,Maybe,4,Neutral,Agree,Agree,Reasonable,Student,65,4,4,3.038461538,22
+Male,15-25,Government,OPD (Doctor Consultation ),15-30 minutes,Agree,Agree,Disagree,4,3,Long lines,Yes,4,Strongly Disagree,Agree,Agree,Expensive,Student,65,4,2,3.038461538,22
+Male,15-25,Government,OPD (Doctor Consultation ),Less than 15 minutes,Neutral,Strongly Disagree,Strongly Disagree,5,1,Short consultation,No,1,Neutral,Neutral,Disagree,Reasonable,Youtuber & Influencer,65,3,1,3.038461538,10
+Male,15-25,Government,OPD (Doctor Consultation ),15-30 minutes,Agree,Agree,Agree,4,3,Short consultation,Yes,3,Agree,Strongly Agree,Agree,Reasonable,Student,65,4,4,3.038461538,22
+Female,25-35,Private,Follow-up/Routine Checkup,15-30 minutes,Strongly Agree,Disagree,Disagree,2,1,,No,3,Agree,Disagree,Disagree,Cheap,Self-Employed,30,5,2,3.038461538,22
+Female,15-25,Private clinic,Emergency,Less than 15 minutes,Agree,Agree,Agree,4,3,,Yes,3,Agree,Agree,Agree,Reasonable,Student,65,4,4,3.038461538,10
+Female,25-35,Private,OPD (Doctor Consultation ),Less than 15 minutes,Neutral,Agree,Strongly Disagree,2,3,Rude staff behavior,Maybe,3,Strongly Disagree,Agree,Disagree,Reasonable,Private Job,30,3,1,3.038461538,10
+Female,15-25,Private clinic,OPD (Doctor Consultation ),15-30 minutes,Neutral,Strongly Disagree,Strongly Agree,4,2,,Maybe,3,Agree,Agree,Strongly Disagree,Reasonable,Student,65,3,5,3.038461538,22
+Male,15-25,Private,In-Patient (Admitted/Hospitalized),30-60 minutes,Agree,Agree,Neutral,3,2,Long lines,Maybe,3,Neutral,Agree,Agree,Expensive,Student,65,4,3,3.038461538,45
+Female,15-25,Private,Follow-up/Routine Checkup,15-30 minutes,Agree,Agree,Neutral,4,2,Long lines,Yes,3,Neutral,Agree,Agree,Reasonable,Student,65,4,3,3.038461538,22
+Male,15-25,Private,In-Patient (Admitted/Hospitalized),Less than 15 minutes,Agree,Neutral,Agree,1,3,Short consultation,Yes,3,Agree,Agree,Agree,Expensive,Student,65,4,4,3.038461538,10
+Male,15-25,Private,In-Patient (Admitted/Hospitalized),Less than 15 minutes,Strongly Agree,Strongly Agree,Strongly Agree,1,3,Cost,Yes,5,Strongly Disagree,Strongly Agree,Strongly Agree,Expensive,Student,65,5,5,3.038461538,10
+Male,15-25,Private,Follow-up/Routine Checkup,15-30 minutes,Strongly Agree,Strongly Agree,Strongly Agree,1,3,Long lines,Yes,5,Strongly Agree,Strongly Agree,Strongly Agree,Expensive,Student,65,5,5,3.038461538,22
+Male,15-25,Government,OPD (Doctor Consultation ),15-30 minutes,Agree,Neutral,Disagree,3,2,Long lines,Maybe,2,Agree,Agree,Neutral,Reasonable,Student,65,4,2,3.038461538,22
+Female,25-35,Private,Follow-up/Routine Checkup,15-30 minutes,Agree,Agree,Neutral,4,3,Cost,Yes,3,Agree,Agree,Agree,Expensive,Student,30,4,3,3.038461538,22
+Female,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Agree,Agree,Agree,3,1,Cost,Maybe,3,Neutral,Neutral,Agree,Reasonable,Student,65,4,4,3.038461538,22
+Male,25-35,Government,OPD (Doctor Consultation ),15-30 minutes,Neutral,Agree,Neutral,4,2,Long lines,Maybe,4,Agree,Agree,Agree,Expensive,Private Job,30,3,3,3.038461538,22
+Male,15-25,Private clinic,OPD (Doctor Consultation ),More than 1 hour,Neutral,Neutral,Neutral,4,3,Short consultation,Maybe,3,Neutral,Agree,Agree,Reasonable,Self-Employed,65,3,3,3.038461538,75
+Male,15-25,Private,OPD (Doctor Consultation ),Less than 15 minutes,Agree,Agree,Agree,4,2,Cost,Maybe,4,Neutral,Strongly Agree,Strongly Agree,Expensive,Business,65,4,4,3.038461538,10
+Male,25-35,Government,Follow-up/Routine Checkup,15-30 minutes,Strongly Agree,Agree,Agree,4,3,Long lines,Yes,4,Agree,Strongly Agree,Strongly Agree,Cheap,Private Job,30,5,4,3.038461538,22
+Female,25-35,Private clinic,Follow-up/Routine Checkup,Less than 15 minutes,Neutral,Strongly Agree,Agree,4,3,Cost,Yes,5,Agree,Agree,Agree,Expensive,Government Job,30,3,4,3.038461538,10
+Female,15-25,Private clinic,In-Patient (Admitted/Hospitalized),Less than 15 minutes,Neutral,Strongly Agree,Agree,4,3,Long lines,Yes,3,Agree,Agree,Agree,Reasonable,Student,65,3,4,3.038461538,10
+Male,15-25,Government,OPD (Doctor Consultation ),Less than 15 minutes,Agree,Strongly Agree,Neutral,4,3,Long lines,Yes,4,Neutral,Strongly Agree,Agree,Reasonable,Student,65,4,3,3.038461538,10
+Female,15-25,Private clinic,In-Patient (Admitted/Hospitalized),30-60 minutes,Agree,Strongly Agree,Agree,1,3,,Yes,4,Agree,Strongly Agree,Strongly Agree,Reasonable,Private Job,65,4,4,3.038461538,45
+Female,15-25,Private,In-Patient (Admitted/Hospitalized),Less than 15 minutes,Strongly Agree,Agree,Strongly Agree,1,2,Short consultation,Yes,5,Strongly Agree,Strongly Agree,Agree,Expensive,Student,65,5,5,3.038461538,10
+Male,15-25,Private,OPD (Doctor Consultation ),30-60 minutes,Neutral,Agree,Agree,3,3,Cost,Yes,3,Neutral,Neutral,Neutral,Reasonable,Student,65,3,4,3.038461538,45
+Female,15-25,Private,Follow-up/Routine Checkup,15-30 minutes,Agree,Agree,Agree,4,3,,Yes,4,Neutral,Agree,Agree,Reasonable,Private Job,65,4,4,3.038461538,22
+Male,15-25,Private clinic,OPD (Doctor Consultation ),15-30 minutes,Agree,Agree,Neutral,4,3,Long lines,Yes,3,Disagree,Agree,Agree,Reasonable,Student,65,4,3,3.038461538,22
+Female,15-25,Private,Follow-up/Routine Checkup,30-60 minutes,Neutral,Neutral,Neutral,3,2,Cost,Maybe,2,Neutral,Neutral,Neutral,Very expensive,Private Job,65,3,3,3.038461538,45
+Male,15-25,Private,OPD (Doctor Consultation ),Less than 15 minutes,Agree,Strongly Agree,Agree,4,3,,Yes,5,Neutral,Agree,Agree,Reasonable,Student,65,4,4,3.038461538,10
+Male,15-25,Private clinic,OPD (Doctor Consultation ),Less than 15 minutes,Strongly Disagree,Agree,Disagree,5,3,,Yes,4,Strongly Disagree,Neutral,Disagree,Very expensive,Student,65,1,2,3.038461538,10
+Female,15-25,Private,OPD (Doctor Consultation ),Less than 15 minutes,Disagree,Agree,Agree,4,3,Long lines,Yes,2,Neutral,Agree,Neutral,Reasonable,Student,65,2,4,3.038461538,10
+Female,15-25,Private,OPD (Doctor Consultation ),Less than 15 minutes,Neutral,Agree,Disagree,3,1,Cost,No,2,Disagree,Neutral,Disagree,Expensive,Student,65,3,2,3.038461538,10
+Male,15-25,Government,OPD (Doctor Consultation ),Less than 15 minutes,Strongly Disagree,Strongly Disagree,Strongly Disagree,2,3,Long lines,Yes,2,Strongly Disagree,Strongly Disagree,Neutral,Very expensive,Student,65,1,1,3.038461538,10
+Female,25-35,Private clinic,OPD (Doctor Consultation ),Less than 15 minutes,Neutral,Neutral,Neutral,3,2,Short consultation,Maybe,3,Agree,Agree,Agree,Reasonable,Student,30,3,3,3.038461538,10
+Female,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Agree,Agree,Agree,4,3,Short consultation,Yes,3,Neutral,Agree,Agree,Reasonable,Student,65,4,4,3.038461538,22
+Male,25-35,Government,OPD (Doctor Consultation ),30-60 minutes,Neutral,Neutral,Disagree,4,1,Long lines,Yes,3,Disagree,Neutral,Neutral,Very expensive,Student,30,3,2,3.038461538,45
+Male,15-25,Government,Follow-up/Routine Checkup,15-30 minutes,Neutral,Agree,Strongly Disagree,4,2,Long lines,Yes,3,Disagree,Neutral,Agree,Reasonable,Student,65,3,1,3.038461538,22
+Male,25-35,Private clinic,OPD (Doctor Consultation ),30-60 minutes,Neutral,Neutral,Neutral,3,1,Long lines,No,2,Disagree,Agree,Agree,Expensive,Homemaker,30,3,3,3.038461538,45
+Male,15-25,Government,Follow-up/Routine Checkup,Less than 15 minutes,Neutral,Agree,Neutral,4,3,Long lines,Yes,2,Neutral,Agree,Agree,Cheap,Student,65,3,3,3.038461538,10
+Male,15-25,Government,In-Patient (Admitted/Hospitalized),15-30 minutes,Neutral,Disagree,Neutral,3,1,,Yes,3,Neutral,Neutral,Neutral,Cheap,Student,65,3,3,3.038461538,22
+Male,25-35,Private,OPD (Doctor Consultation ),15-30 minutes,Neutral,Neutral,Neutral,3,2,Short consultation,Maybe,2,Neutral,Neutral,Neutral,Reasonable,Self-Employed,30,3,3,3.038461538,22
+Male,15-25,Government,Follow-up/Routine Checkup,Less than 15 minutes,Agree,Agree,Neutral,4,3,Long lines,Maybe,3,Neutral,Agree,Agree,Cheap,Student,65,4,3,3.038461538,10
+Male,35-45,Private,OPD (Doctor Consultation ),15-30 minutes,Strongly Agree,Strongly Agree,Strongly Agree,1,2,Cost,Yes,5,Agree,Strongly Agree,Strongly Agree,Very expensive,Private Job,65,5,5,3.038461538,22
+Female,15-25,Private clinic,OPD (Doctor Consultation ),15-30 minutes,Agree,Strongly Agree,Neutral,1,3,Short consultation,Yes,4,Neutral,Strongly Agree,Agree,Reasonable,Private Job,65,4,3,3.038461538,22
+Female,15-25,Government,OPD (Doctor Consultation ),30-60 minutes,Agree,Agree,Agree,4,3,,Maybe,4,Neutral,Agree,Agree,Reasonable,Private Job,65,4,4,3.038461538,45
+Female,15-25,Private,Follow-up/Routine Checkup,Less than 15 minutes,Strongly Agree,Strongly Agree,Strongly Agree,4,3,Short consultation,Yes,2,Agree,Agree,Agree,Reasonable,Student,65,5,5,3.038461538,10
+Male,15-25,Private,In-Patient (Admitted/Hospitalized),30-60 minutes,Agree,Agree,Agree,1,2,,Yes,5,Neutral,Agree,Agree,Reasonable,Student,65,4,4,3.038461538,45
+Female,15-25,Private,Follow-up/Routine Checkup,More than 1 hour,Neutral,Neutral,Neutral,3,2,,Maybe,3,Neutral,Neutral,Neutral,Reasonable,Student,65,3,3,3.038461538,75
+Female,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Strongly Agree,Strongly Agree,Strongly Agree,1,3,Cost,Yes,5,Strongly Agree,Strongly Agree,Strongly Agree,Reasonable,Student,65,5,5,3.038461538,22
+Male,15-25,Government,Emergency,15-30 minutes,Neutral,Neutral,Neutral,3,2,,Yes,3,Neutral,Neutral,Neutral,Cheap,Student,65,3,3,3.038461538,22
+Male,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Neutral,Neutral,Disagree,4,3,Short consultation,Yes,2,Disagree,Strongly Disagree,Neutral,Reasonable,Student,65,3,2,3.038461538,22
+Female,15-25,Government,OPD (Doctor Consultation ),30-60 minutes,Neutral,Agree,Neutral,3,2,Long lines,Maybe,3,Disagree,Neutral,Neutral,Reasonable,Student,65,3,3,3.038461538,45
+Male,15-25,Government,Emergency,Less than 15 minutes,Neutral,Agree,Disagree,2,3,,Maybe,2,Disagree,Agree,Neutral,Reasonable,Student,65,3,2,3.038461538,10
+Male,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Neutral,Strongly Agree,Agree,1,3,Long lines,Yes,5,Agree,Strongly Agree,Strongly Agree,Expensive,Business,65,3,4,3.038461538,22
+Male,15-25,Private,OPD (Doctor Consultation ),30-60 minutes,Agree,Neutral,Neutral,2,2,Rude staff behavior,Maybe,2,Disagree,Disagree,Neutral,Reasonable,Student,65,4,3,3.038461538,45
+Male,15-25,Private clinic,OPD (Doctor Consultation ),Less than 15 minutes,Neutral,Neutral,Agree,3,3,Rude staff behavior,Yes,3,Neutral,Neutral,Agree,Reasonable,Student,65,3,4,3.038461538,10
+Male,15-25,Private,Follow-up/Routine Checkup,15-30 minutes,Agree,Agree,Neutral,4,3,Long lines,Yes,3,Neutral,Neutral,Agree,Expensive,Student,65,4,3,3.038461538,22
+Male,15-25,Government,OPD (Doctor Consultation ),30-60 minutes,Disagree,Neutral,Strongly Disagree,4,2,Long lines,Maybe,3,Disagree,Disagree,Agree,Reasonable,Student,65,2,1,3.038461538,45
+Male,15-25,Government,Emergency,15-30 minutes,Neutral,Agree,Neutral,4,2,Long lines,Maybe,3,Neutral,Agree,Agree,Expensive,Student,65,3,3,3.038461538,22
+Male,15-25,Private,OPD (Doctor Consultation ),Less than 15 minutes,Disagree,Agree,Neutral,4,2,Cost,Maybe,3,Disagree,Agree,Agree,Expensive,Student,65,2,3,3.038461538,10
+Male,15-25,Private,OPD (Doctor Consultation ),More than 1 hour,Neutral,Strongly Disagree,Agree,3,1,Rude staff behavior,No,2,Disagree,Neutral,Disagree,Reasonable,Student,65,3,4,3.038461538,75
+Female,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Neutral,Agree,Disagree,4,2,Cost,Yes,3,Neutral,Agree,Agree,Expensive,Student,65,3,2,3.038461538,22
+Female,15-25,Private,Follow-up/Routine Checkup,30-60 minutes,Agree,Strongly Agree,Disagree,1,2,Short consultation,Yes,5,Neutral,Strongly Agree,Strongly Agree,Expensive,Student,65,4,2,3.038461538,45
+Female,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Agree,Strongly Agree,Strongly Agree,1,3,Cost,Yes,5,Neutral,Agree,Agree,Expensive,Student,65,4,5,3.038461538,22
+Female,25-35,Government,OPD (Doctor Consultation ),15-30 minutes,Neutral,Agree,Neutral,4,2,,Maybe,3,Neutral,Neutral,Agree,Reasonable,Student,30,3,3,3.038461538,22
+Male,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Neutral,Disagree,Neutral,3,1,Short consultation,No,3,Neutral,Neutral,Neutral,Cheap,Student,65,3,3,3.038461538,22
+Male,15-25,Private,OPD (Doctor Consultation ),Less than 15 minutes,Agree,Neutral,Neutral,3,3,Rude staff behavior,Yes,3,Agree,Neutral,Neutral,Reasonable,Student,65,4,3,3.038461538,10
+Female,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Strongly Agree,Strongly Agree,Agree,1,3,Long lines,Yes,5,Strongly Agree,Strongly Agree,Strongly Agree,Very expensive,Student,65,5,4,3.038461538,22
+Male,15-25,Private,OPD (Doctor Consultation ),Less than 15 minutes,Strongly Disagree,Strongly Disagree,Strongly Disagree,1,3,Long lines,Yes,5,Strongly Disagree,Strongly Disagree,Strongly Disagree,Very expensive,Student,65,1,1,3.038461538,10
+Female,25-35,Private clinic,In-Patient (Admitted/Hospitalized),Less than 15 minutes,Agree,Agree,Agree,4,3,Short consultation,Yes,3,Agree,Strongly Agree,Agree,Reasonable,Student,30,4,3,3.038461538,45
+Female,15-25,Private,OPD (Doctor Consultation ),30-60 minutes,Strongly Agree,Strongly Agree,Agree,4,3,Long lines,Yes,3,Agree,Neutral,Disagree,Reasonable,Student,65,3,3,3.038461538,10
+Female,15-25,Government,OPD (Doctor Consultation ),Less than 15 minutes,Neutral,Agree,Neutral,4,2,Cost,Yes,5,Neutral,Agree,Disagree,Cheap,Student,65,3,5,3.038461538,22
+Male,15-25,Government,OPD (Doctor Consultation ),15-30 minutes,Disagree,Strongly Agree,Strongly Agree,4,1,Long lines,Yes,5,Strongly Disagree,Neutral,Agree,Reasonable,Student,65,4,4,3.038461538,22
+Female,25-35,Private,Follow-up/Routine Checkup,15-30 minutes,Agree,Agree,Neutral,1,2,Short consultation,Yes,3,Agree,Neutral,Strongly Agree,Expensive,Government Job,65,4,3,3.038461538,10
+Female,15-25,Private,Follow-up/Routine Checkup,15-30 minutes,Agree,Neutral,Neutral,1,3,Long lines,Yes,3,Neutral,Agree,Agree,Reasonable,Student,30,4,4,3.038461538,22
+Male,15-25,Private clinic,Follow-up/Routine Checkup,Less than 15 minutes,Agree,Agree,Agree,1,3,Short consultation,Yes,5,Disagree,Agree,Agree,Very expensive,Student,65,5,1,3.038461538,10
+Male,15-25,Government,OPD (Doctor Consultation ),Less than 15 minutes,Neutral,Strongly Agree,Agree,4,2,Long lines,Maybe,3,Agree,Neutral,Agree,Very expensive,Student,30,3,3,3.038461538,22
+Male,15-25,Government,OPD (Doctor Consultation ),15-30 minutes,Agree,Strongly Agree,Agree,4,3,Long lines,Yes,3,Agree,Agree,Agree,Expensive,Student,65,4,4,3.038461538,22
+Male,15-25,Private clinic,OPD (Doctor Consultation ),15-30 minutes,Neutral,Agree,Neutral,4,2,Cost,Maybe,4,Agree,Disagree,Disagree,Reasonable,Student,65,4,2,3.038461538,22
+Female,35-45,Private,Emergency,30-60 minutes,Neutral,Agree,Neutral,1,2,Short consultation,Maybe,3,Disagree,Strongly Agree,Agree,Reasonable,Student,30,3,4,3.038461538,22
+Male,15-25,Private clinic,OPD (Doctor Consultation ),Less than 15 minutes,Strongly Agree,Strongly Agree,Neutral,3,1,Long lines,Maybe,3,Neutral,Neutral,Agree,Expensive,Business,65,3,4,3.038461538,22
+Male,15-25,Government,OPD (Doctor Consultation ),15-30 minutes,Neutral,Disagree,Disagree,3,2,Short consultation,Maybe,3,Neutral,Neutral,Agree,Very expensive,Student,65,5,5,3.038461538,45
+Male,15-25,Government,OPD (Doctor Consultation ),30-60 minutes,Neutral,Strongly Agree,Strongly Disagree,3,3,Long lines,No,4,Neutral,Agree,Agree,Very expensive,Student,65,4,1,3.038461538,22
+Female,15-25,Private,Follow-up/Routine Checkup,Less than 15 minutes,Neutral,Agree,Disagree,4,3,Long lines,Maybe,5,Neutral,Neutral,Disagree,Expensive,Student,65,1,4,3.038461538,45
+Female,15-25,Private,In-Patient (Admitted/Hospitalized),15-30 minutes,Neutral,Strongly Disagree,Agree,4,2,Short consultation,Yes,3,Agree,Strongly Agree,Neutral,Reasonable,Student,65,3,2,3.038461538,45
+Male,15-25,Private,OPD (Doctor Consultation ),Less than 15 minutes,Agree,Strongly Disagree,Strongly Disagree,4,3,Short consultation,Yes,2,Neutral,Agree,Agree,Reasonable,Student,65,2,3,3.038461538,22
+Male,15-25,Private clinic,Follow-up/Routine Checkup,30-60 minutes,Agree,Strongly Agree,Neutral,1,3,Cost,Yes,3,Agree,Agree,Agree,Reasonable,Private Job,65,4,3,3.038461538,45
+Female,15-25,Government,OPD (Doctor Consultation ),Less than 15 minutes,Neutral,Strongly Agree,Strongly Agree,4,2,Short consultation,Yes,4,Disagree,Neutral,Agree,Very expensive,Student,30,4,1,3.038461538,22
+Male,15-25,Private clinic,Emergency,15-30 minutes,Agree,Neutral,Disagree,1,3,Long lines,Yes,3,Neutral,Neutral,Agree,Expensive,Student,65,3,1,3.038461538,75
+Male,15-25,Private,OPD (Doctor Consultation ),Less than 15 minutes,Neutral,Agree,Agree,4,3,Long lines,Yes,5,Neutral,Agree,Agree,Reasonable,Student,30,4,2,3.038461538,22
+Male,15-25,Private,OPD (Doctor Consultation ),30-60 minutes,Neutral,Strongly Disagree,Strongly Disagree,4,2,Cost,Yes,3,Disagree,Agree,Disagree,Very expensive,Student,30,4,3,3.038461538,10
+Male,15-25,Private clinic,OPD (Doctor Consultation ),30-60 minutes,Neutral,Agree,Neutral,4,2,Long lines,Maybe,2,Agree,Strongly Agree,Agree,Reasonable,Student,65,3,3,3.038461538,22
+Male,15-25,Private clinic,OPD (Doctor Consultation ),15-30 minutes,Agree,Neutral,Neutral,1,3,Long lines,Maybe,3,Agree,Agree,Strongly Agree,Expensive,Student,65,3,4,3.038461538,45
+Male,15-25,Private clinic,Follow-up/Routine Checkup,15-30 minutes,Neutral,Strongly Agree,Agree,3,1,Short consultation,No,1,Neutral,Strongly Agree,Agree,Reasonable,Student,30,4,4,3.038461538,10
+Male,15-25,Government,OPD (Doctor Consultation ),Less than 15 minutes,Agree,Neutral,Neutral,1,2,Cost,Maybe,2,Disagree,Neutral,Neutral,Reasonable,Student,65,1,4,3.038461538,10
+Female,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Agree,Strongly Agree,Disagree,4,2,Long lines,Maybe,3,Neutral,Neutral,Agree,Expensive,Youtuber & Influencer,65,4,2,3.038461538,10
+Male,15-25,Government,Follow-up/Routine Checkup,15-30 minutes,Strongly Disagree,Agree,Neutral,4,3,Long lines,No,3,Strongly Agree,Neutral,Neutral,Very expensive,Government Job,65,3,5,3.038461538,75
+Female,15-25,Government,In-Patient (Admitted/Hospitalized),30-60 minutes,Neutral,Strongly Agree,Agree,4,2,Rude staff behavior,Yes,2,Strongly Disagree,Strongly Disagree,Disagree,Expensive,Student,65,3,5,3.038461538,22
+Male,15-25,Private clinic,OPD (Doctor Consultation ),Less than 15 minutes,Agree,Agree,Disagree,1,2,Rude staff behavior,Yes,3,Disagree,Agree,Agree,Cheap,Student,65,4,1,3.038461538,22
+Female,15-25,Private clinic,Emergency,Less than 15 minutes,Agree,Agree,Strongly Disagree,4,2,Rude staff behavior,Maybe,2,Neutral,Neutral,Agree,Very expensive,Private Job,65,4,5,3.038461538,22
+Female,15-25,Private,OPD (Doctor Consultation ),30-60 minutes,Strongly Disagree,Agree,Agree,4,2,Long lines,Yes,3,Disagree,Strongly Agree,Agree,Expensive,Student,65,3,1,3.038461538,22
+Male,15-25,Government,OPD (Doctor Consultation ),15-30 minutes,Strongly Agree,Strongly Agree,Agree,4,3,Long lines,Yes,2,Neutral,Agree,Neutral,Expensive,Student,30,5,2,3.038461538,22
+Male,15-25,Private,In-Patient (Admitted/Hospitalized),Less than 15 minutes,Neutral,Agree,Disagree,4,2,Rude staff behavior,Maybe,4,Agree,Agree,Agree,Reasonable,Student,65,3,2,3.038461538,10
+Female,25-35,Private,OPD (Doctor Consultation ),15-30 minutes,Disagree,Agree,Neutral,3,2,Short consultation,Yes,3,Agree,Agree,Agree,Reasonable,Private Job,65,3,3,3.038461538,22
+Male,15-25,Government,OPD (Doctor Consultation ),15-30 minutes,Strongly Agree,Strongly Agree,Disagree,4,2,Short consultation,Yes,5,Strongly Disagree,Neutral,Strongly Agree,Reasonable,Student,65,1,4,3.038461538,45
+Male,15-25,Private,OPD (Doctor Consultation ),Less than 15 minutes,Strongly Agree,Agree,Strongly Agree,3,1,Rude staff behavior,Maybe,4,Neutral,Neutral,Strongly Agree,Reasonable,Student,65,4,5,3.038461538,22
+Female,15-25,Government,OPD (Doctor Consultation ),15-30 minutes,Neutral,Neutral,Neutral,3,3,Short consultation,Yes,3,Agree,Agree,Agree,Reasonable,Student,30,5,4,3.038461538,22
+Female,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Neutral,Neutral,Strongly Agree,4,3,Short consultation,Yes,4,Neutral,Neutral,Neutral,Reasonable,Youtuber & Influencer,65,3,4,3.038461538,10
+Female,25-35,Government,In-Patient (Admitted/Hospitalized),15-30 minutes,Agree,Strongly Agree,Agree,4,2,Long lines,Yes,3,Disagree,Neutral,Agree,Reasonable,Student,65,3,4,3.038461538,45
+Female,25-35,Government,Emergency,15-30 minutes,Neutral,Strongly Agree,Neutral,3,2,Long lines,Yes,4,Neutral,Strongly Agree,Disagree,Expensive,Student,30,5,3,3.038461538,75
+Male,15-25,Private,OPD (Doctor Consultation ),30-60 minutes,Neutral,Neutral,Neutral,3,2,Long lines,Yes,3,Neutral,Neutral,Strongly Agree,Reasonable,Private Job,65,4,5,3.038461538,22
+Female,15-25,Private clinic,OPD (Doctor Consultation ),Less than 15 minutes,Neutral,Neutral,Strongly Agree,1,2,Short consultation,Yes,3,Neutral,Agree,Neutral,Reasonable,Private Job,65,3,4,3.038461538,22
+Female,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Agree,Agree,Agree,4,3,Cost,Yes,3,Neutral,Strongly Agree,Strongly Agree,Reasonable,Student,65,3,3,3.038461538,75
+Male,15-25,Government,OPD (Doctor Consultation ),Less than 15 minutes,Neutral,Neutral,Agree,1,2,Long lines,Maybe,3,Neutral,Strongly Agree,Neutral,Reasonable,Student,65,4,3,3.038461538,75
+Female,15-25,Government,OPD (Doctor Consultation ),Less than 15 minutes,Agree,Strongly Agree,Disagree,3,3,Short consultation,Maybe,1,Agree,Agree,Neutral,Expensive,Business,65,4,4,3.038461538,45
+Female,15-25,Private,Follow-up/Routine Checkup,15-30 minutes,Neutral,Neutral,Disagree,3,2,Long lines,Maybe,5,Disagree,Agree,Agree,Expensive,Private Job,65,4,5,3.038461538,22
+Female,15-25,Government,OPD (Doctor Consultation ),30-60 minutes,Neutral,Neutral,Agree,4,2,Long lines,Yes,4,Disagree,Neutral,Disagree,Expensive,Student,65,3,3,3.038461538,10
+Female,15-25,Private clinic,OPD (Doctor Consultation ),15-30 minutes,Neutral,Agree,Neutral,3,2,Cost,Maybe,5,Neutral,Strongly Agree,Agree,Reasonable,Student,65,3,1,3.038461538,45
+Female,15-25,Government,Follow-up/Routine Checkup,15-30 minutes,Strongly Agree,Agree,Disagree,3,3,Rude staff behavior,Maybe,4,Neutral,Agree,Agree,Reasonable,Student,65,4,3,3.038461538,45
+Male,25-35,Government,OPD (Doctor Consultation ),15-30 minutes,Agree,Agree,Disagree,4,3,Long lines,Maybe,2,Strongly Disagree,Agree,Agree,Cheap,Student,30,4,3,3.038461538,45
+Male,15-25,Government,Follow-up/Routine Checkup,30-60 minutes,Neutral,Disagree,Neutral,4,3,Cost,Maybe,5,Strongly Disagree,Agree,Agree,Reasonable,Student,65,3,3,3.038461538,22
+Male,15-25,Private,Follow-up/Routine Checkup,Less than 15 minutes,Disagree,Agree,Neutral,3,3,Cost,No,4,Agree,Strongly Agree,Agree,Cheap,Business,65,4,4,3.038461538,22
+Female,15-25,Government,OPD (Doctor Consultation ),15-30 minutes,Neutral,Strongly Disagree,Strongly Disagree,3,3,Long lines,Maybe,3,Neutral,Strongly Agree,Strongly Agree,Very expensive,Student,65,3,4,3.038461538,22
+Male,15-25,Private,OPD (Doctor Consultation ),Less than 15 minutes,Strongly Agree,Strongly Agree,Neutral,1,3,Long lines,Yes,3,Neutral,Neutral,Agree,Expensive,Private Job,30,4,1,3.038461538,10
+Male,15-25,Private clinic,Follow-up/Routine Checkup,30-60 minutes,Neutral,Agree,Agree,4,3,Long lines,Maybe,3,Strongly Agree,Agree,Agree,Reasonable,Student,65,3,4,3.038461538,45
+Male,15-25,Private clinic,OPD (Doctor Consultation ),Less than 15 minutes,Strongly Agree,Strongly Agree,Agree,1,2,Short consultation,No,2,Strongly Disagree,Agree,Agree,Expensive,Student,65,3,1,3.038461538,22
+Male,15-25,Government,OPD (Doctor Consultation ),Less than 15 minutes,Agree,Disagree,Strongly Disagree,4,3,Short consultation,Yes,3,Neutral,Agree,Neutral,Very expensive,Private Job,30,3,5,3.038461538,10
+Male,15-25,Government,OPD (Doctor Consultation ),15-30 minutes,Neutral,Agree,Agree,2,3,Long lines,Maybe,5,Neutral,Neutral,Strongly Agree,Expensive,Student,65,4,1,3.038461538,10
+Female,15-25,Private,Follow-up/Routine Checkup,Less than 15 minutes,Neutral,Neutral,Agree,1,3,Short consultation,Yes,3,Neutral,Agree,Disagree,Reasonable,Student,30,5,2,3.038461538,22
+Male,15-25,Private clinic,OPD (Doctor Consultation ),15-30 minutes,Disagree,Agree,Disagree,4,1,Rude staff behavior,Yes,5,Agree,Agree,Agree,Expensive,Student,65,5,3,3.038461538,22
+Female,15-25,Government,OPD (Doctor Consultation ),Less than 15 minutes,Agree,Strongly Agree,Strongly Disagree,3,3,Short consultation,Maybe,1,Neutral,Neutral,Agree,Expensive,Student,65,4,4,3.038461538,22
+Female,25-35,Private,OPD (Doctor Consultation ),30-60 minutes,Agree,Strongly Agree,Neutral,4,2,Short consultation,Maybe,5,Neutral,Neutral,Strongly Agree,Very expensive,Private Job,65,5,4,3.038461538,22
+Male,15-25,Private,Follow-up/Routine Checkup,30-60 minutes,Neutral,Agree,Agree,3,2,Long lines,Yes,4,Neutral,Neutral,Agree,Reasonable,Student,65,3,3,3.038461538,22
+Male,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Strongly Agree,Strongly Disagree,Disagree,3,1,Long lines,Yes,3,Agree,Agree,Neutral,Very expensive,Student,65,4,4,3.038461538,10
+Female,15-25,Government,Follow-up/Routine Checkup,Less than 15 minutes,Neutral,Agree,Neutral,4,1,Short consultation,Yes,4,Agree,Agree,Agree,Reasonable,Student,65,5,2,3.038461538,45
+Male,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Strongly Disagree,Agree,Strongly Agree,3,2,Cost,Maybe,4,Disagree,Neutral,Neutral,Reasonable,Student,65,2,2,3.038461538,22
+Female,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Strongly Agree,Neutral,Neutral,4,1,Short consultation,Maybe,5,Neutral,Agree,Neutral,Very expensive,Student,65,5,3,3.038461538,10
+Female,15-25,Private clinic,Follow-up/Routine Checkup,15-30 minutes,Agree,Neutral,Neutral,4,2,Long lines,Yes,2,Neutral,Neutral,Neutral,Reasonable,Student,65,3,3,3.038461538,10
+Female,15-25,Private,Follow-up/Routine Checkup,Less than 15 minutes,Strongly Disagree,Strongly Agree,Neutral,5,1,Cost,Yes,3,Neutral,Agree,Agree,Very expensive,Youtuber & Influencer,65,4,3,3.038461538,45
+Male,15-25,Private,Follow-up/Routine Checkup,30-60 minutes,Strongly Agree,Neutral,Agree,3,3,Short consultation,Yes,4,Agree,Agree,Strongly Agree,Expensive,Student,30,3,4,3.038461538,22
+Female,15-25,Private,In-Patient (Admitted/Hospitalized),Less than 15 minutes,Strongly Agree,Agree,Disagree,3,2,Long lines,No,4,Neutral,Neutral,Strongly Agree,Reasonable,Student,65,2,3,3.038461538,10
+Female,15-25,Private,Follow-up/Routine Checkup,15-30 minutes,Neutral,Agree,Agree,1,3,Long lines,Yes,3,Strongly Agree,Neutral,Neutral,Cheap,Student,65,2,5,3.038461538,10
+Male,15-25,Private,Follow-up/Routine Checkup,Less than 15 minutes,Agree,Agree,Agree,1,1,Short consultation,Maybe,4,Neutral,Agree,Agree,Cheap,Student,30,3,3,3.038461538,22
+Female,25-35,Private clinic,In-Patient (Admitted/Hospitalized),15-30 minutes,Agree,Neutral,Neutral,4,2,Cost,Yes,1,Strongly Agree,Strongly Agree,Strongly Agree,Expensive,Student,65,3,5,3.038461538,45
+Male,15-25,Private clinic,OPD (Doctor Consultation ),Less than 15 minutes,Agree,Neutral,Agree,2,2,Long lines,Maybe,5,Neutral,Neutral,Agree,Expensive,Student,65,3,1,3.038461538,22
+Female,15-25,Government,Emergency,30-60 minutes,Agree,Agree,Agree,3,3,Short consultation,Yes,2,Disagree,Neutral,Neutral,Cheap,Student,65,3,4,3.038461538,10
+Female,15-25,Private clinic,Follow-up/Routine Checkup,15-30 minutes,Neutral,Strongly Disagree,Agree,4,3,Long lines,Maybe,3,Neutral,Agree,Neutral,Reasonable,Student,65,3,3,3.038461538,10
+Female,15-25,Government,OPD (Doctor Consultation ),30-60 minutes,Strongly Agree,Strongly Agree,Neutral,3,2,Rude staff behavior,Maybe,3,Neutral,Agree,Agree,Reasonable,Private Job,65,3,4,3.038461538,45
+Male,15-25,Government,Follow-up/Routine Checkup,Less than 15 minutes,Strongly Agree,Strongly Disagree,Agree,1,1,Short consultation,Yes,2,Agree,Neutral,Neutral,Reasonable,Student,65,1,5,3.038461538,75
+Male,15-25,Government,Follow-up/Routine Checkup,30-60 minutes,Agree,Neutral,Disagree,1,1,Cost,Yes,3,Agree,Strongly Disagree,Neutral,Reasonable,Student,65,4,3,3.038461538,22
+Female,15-25,Private,In-Patient (Admitted/Hospitalized),15-30 minutes,Neutral,Agree,Neutral,4,2,Long lines,Maybe,2,Neutral,Neutral,Agree,Reasonable,Private Job,30,4,3,3.038461538,22
+Female,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Strongly Agree,Neutral,Agree,4,2,Long lines,Yes,5,Agree,Neutral,Agree,Expensive,Student,65,3,4,3.038461538,10
+Male,25-35,Private clinic,Follow-up/Routine Checkup,Less than 15 minutes,Neutral,Neutral,Neutral,4,2,Long lines,No,3,Neutral,Agree,Neutral,Expensive,Student,65,4,4,3.038461538,10
+Male,15-25,Private clinic,OPD (Doctor Consultation ),15-30 minutes,Agree,Agree,Disagree,1,3,Short consultation,Maybe,3,Neutral,Agree,Neutral,Reasonable,Student,65,3,3,3.038461538,45
+Male,15-25,Government,Follow-up/Routine Checkup,Less than 15 minutes,Neutral,Neutral,Strongly Disagree,3,1,Long lines,Maybe,3,Disagree,Agree,Disagree,Expensive,Student,65,4,3,3.038461538,10
+Male,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Agree,Strongly Disagree,Neutral,4,3,Long lines,Maybe,3,Neutral,Agree,Neutral,Reasonable,Student,65,3,4,3.038461538,10
+Male,15-25,Government,Follow-up/Routine Checkup,More than 1 hour,Agree,Agree,Disagree,4,3,Long lines,Yes,2,Disagree,Neutral,Strongly Agree,Expensive,Student,65,4,4,3.038461538,10
+Male,15-25,Private,OPD (Doctor Consultation ),30-60 minutes,Agree,Disagree,Agree,4,2,Rude staff behavior,Maybe,4,Strongly Agree,Strongly Disagree,Agree,Expensive,Private Job,65,4,3,3.038461538,45
+Female,15-25,Private clinic,OPD (Doctor Consultation ),Less than 15 minutes,Neutral,Neutral,Neutral,4,1,Cost,Maybe,3,Neutral,Disagree,Strongly Agree,Reasonable,Private Job,65,1,4,3.038461538,22
+Male,25-35,Private,OPD (Doctor Consultation ),15-30 minutes,Strongly Agree,Neutral,Strongly Agree,1,2,Long lines,Yes,2,Strongly Disagree,Neutral,Agree,Reasonable,Student,65,3,3,3.038461538,10
+Male,15-25,Private,OPD (Doctor Consultation ),Less than 15 minutes,Neutral,Strongly Disagree,Neutral,1,3,Cost,Maybe,4,Neutral,Agree,Neutral,Reasonable,Student,65,1,3,3.038461538,10
+Female,15-25,Government,OPD (Doctor Consultation ),Less than 15 minutes,Agree,Neutral,Neutral,4,3,Cost,Yes,4,Disagree,Strongly Agree,Agree,Reasonable,Private Job,65,3,4,3.038461538,22
+Female,15-25,Private,OPD (Doctor Consultation ),Less than 15 minutes,Neutral,Disagree,Disagree,3,2,Short consultation,Yes,3,Agree,Agree,Agree,Reasonable,Private Job,65,3,2,3.038461538,10
+Female,15-25,Private clinic,OPD (Doctor Consultation ),30-60 minutes,Agree,Agree,Strongly Disagree,4,2,Long lines,Maybe,3,Neutral,Neutral,Agree,Cheap,Student,65,3,1,3.038461538,10
+Male,15-25,Private clinic,Follow-up/Routine Checkup,Less than 15 minutes,Neutral,Agree,Neutral,4,3,Long lines,Maybe,3,Neutral,Agree,Neutral,Reasonable,Student,65,3,3,3.038461538,10
+Male,15-25,Private,OPD (Doctor Consultation ),30-60 minutes,Neutral,Agree,Disagree,4,3,Long lines,Maybe,4,Neutral,Agree,Agree,Reasonable,Student,65,4,4,3.038461538,10
+Female,15-25,Private,OPD (Doctor Consultation ),Less than 15 minutes,Neutral,Disagree,Neutral,4,2,Long lines,Yes,4,Disagree,Agree,Agree,Very expensive,Student,65,4,4,3.038461538,10
+Male,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Agree,Agree,Neutral,3,3,Cost,Yes,4,Strongly Disagree,Agree,Strongly Disagree,Reasonable,Student,65,3,4,3.038461538,45
+Female,15-25,Private,Follow-up/Routine Checkup,15-30 minutes,Neutral,Neutral,Strongly Agree,3,2,Cost,Maybe,4,Neutral,Agree,Agree,Expensive,Student,65,5,3,3.038461538,22
+Male,25-35,Private,Follow-up/Routine Checkup,Less than 15 minutes,Strongly Disagree,Strongly Agree,Disagree,3,2,Cost,Yes,4,Agree,Neutral,Neutral,Reasonable,Student,65,3,3,3.038461538,22
+Male,15-25,Private,OPD (Doctor Consultation ),Less than 15 minutes,Disagree,Strongly Disagree,Agree,4,3,Short consultation,Yes,2,Strongly Disagree,Neutral,Strongly Disagree,Cheap,Private Job,65,3,3,3.038461538,45
+Female,15-25,Government,OPD (Doctor Consultation ),15-30 minutes,Neutral,Agree,Strongly Agree,2,2,Long lines,Yes,3,Neutral,Neutral,Agree,Expensive,Student,65,2,3,3.038461538,10
+Male,15-25,Government,Follow-up/Routine Checkup,15-30 minutes,Agree,Neutral,Neutral,4,3,Long lines,Yes,3,Neutral,Strongly Disagree,Neutral,Reasonable,Student,65,3,4,3.038461538,22
+Male,15-25,Government,OPD (Doctor Consultation ),More than 1 hour,Agree,Agree,Neutral,4,2,Long lines,Maybe,3,Neutral,Agree,Neutral,Reasonable,Student,65,3,4,3.038461538,45
+Female,25-35,Private,Follow-up/Routine Checkup,15-30 minutes,Agree,Strongly Agree,Disagree,1,3,Long lines,No,2,Disagree,Neutral,Agree,Reasonable,Student,30,5,3,3.038461538,10
+Male,15-25,Private clinic,OPD (Doctor Consultation ),Less than 15 minutes,Agree,Disagree,Agree,4,3,Long lines,Maybe,4,Neutral,Strongly Agree,Neutral,Reasonable,Student,30,4,3,3.038461538,10
+Female,25-35,Private,OPD (Doctor Consultation ),15-30 minutes,Strongly Disagree,Strongly Agree,Disagree,1,2,Short consultation,Yes,4,Disagree,Neutral,Strongly Agree,Reasonable,Student,65,4,3,3.038461538,45
+Male,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Strongly Agree,Agree,Neutral,3,2,Cost,Yes,5,Strongly Disagree,Agree,Neutral,Reasonable,Student,65,4,2,3.038461538,22
+Male,15-25,Private,OPD (Doctor Consultation ),Less than 15 minutes,Neutral,Strongly Agree,Neutral,4,2,Short consultation,Maybe,3,Neutral,Neutral,Strongly Disagree,Very expensive,Student,65,3,3,3.038461538,22
+Male,15-25,Private clinic,OPD (Doctor Consultation ),15-30 minutes,Strongly Agree,Agree,Strongly Agree,2,3,Short consultation,Yes,4,Neutral,Strongly Agree,Agree,Very expensive,Private Job,65,3,3,3.038461538,10
+Male,25-35,Private,OPD (Doctor Consultation ),15-30 minutes,Strongly Agree,Agree,Disagree,4,3,Long lines,Yes,3,Neutral,Agree,Agree,Reasonable,Student,65,3,3,3.038461538,10
+Male,15-25,Private clinic,In-Patient (Admitted/Hospitalized),15-30 minutes,Agree,Strongly Agree,Neutral,4,3,Long lines,Yes,5,Neutral,Agree,Agree,Reasonable,Student,65,3,4,3.038461538,22
+Male,15-25,Government,OPD (Doctor Consultation ),30-60 minutes,Agree,Agree,Agree,4,3,Long lines,Yes,3,Neutral,Agree,Neutral,Reasonable,Business,65,3,3,3.038461538,22
+Female,15-25,Government,OPD (Doctor Consultation ),Less than 15 minutes,Neutral,Strongly Agree,Agree,1,3,Rude staff behavior,No,3,Strongly Disagree,Strongly Agree,Agree,Expensive,Student,65,4,3,3.038461538,10
+Male,15-25,Private,In-Patient (Admitted/Hospitalized),Less than 15 minutes,Strongly Disagree,Strongly Disagree,Agree,4,2,Cost,Yes,3,Disagree,Neutral,Agree,Reasonable,Youtuber & Influencer,65,4,3,3.038461538,22
+Male,15-25,Private clinic,Follow-up/Routine Checkup,15-30 minutes,Neutral,Agree,Neutral,4,3,Short consultation,No,5,Agree,Agree,Disagree,Reasonable,Business,65,4,3,3.038461538,10
+Male,15-25,Government,OPD (Doctor Consultation ),15-30 minutes,Neutral,Neutral,Neutral,4,1,Cost,Yes,3,Agree,Agree,Agree,Expensive,Student,65,5,3,3.038461538,22
+Female,15-25,Private,In-Patient (Admitted/Hospitalized),15-30 minutes,Neutral,Disagree,Agree,3,1,Cost,Yes,1,Neutral,Strongly Agree,Agree,Reasonable,Private Job,65,3,5,3.038461538,10
+Male,15-25,Government,Follow-up/Routine Checkup,Less than 15 minutes,Neutral,Neutral,Agree,4,2,Long lines,Maybe,5,Strongly Agree,Strongly Agree,Strongly Agree,Expensive,Private Job,65,4,4,3.038461538,22
+Male,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Strongly Disagree,Strongly Agree,Neutral,3,1,Short consultation,Yes,4,Neutral,Disagree,Neutral,Cheap,Student,65,4,2,3.038461538,45
+Male,15-25,Government,In-Patient (Admitted/Hospitalized),15-30 minutes,Agree,Agree,Disagree,4,1,Long lines,Yes,2,Strongly Agree,Agree,Neutral,Reasonable,Student,65,3,3,3.038461538,22
+Female,15-25,Private clinic,In-Patient (Admitted/Hospitalized),15-30 minutes,Agree,Agree,Strongly Disagree,1,3,Cost,No,3,Neutral,Neutral,Agree,Expensive,Student,65,1,3,3.038461538,10
+Male,25-35,Private,OPD (Doctor Consultation ),Less than 15 minutes,Neutral,Agree,Disagree,3,3,Rude staff behavior,Maybe,3,Neutral,Agree,Agree,Reasonable,Student,65,4,5,3.038461538,10
+Male,15-25,Private,OPD (Doctor Consultation ),Less than 15 minutes,Neutral,Strongly Agree,Neutral,3,3,Short consultation,Yes,2,Disagree,Strongly Agree,Disagree,Reasonable,Private Job,65,4,3,3.038461538,22
+Female,15-25,Private clinic,OPD (Doctor Consultation ),15-30 minutes,Neutral,Strongly Agree,Neutral,4,2,Long lines,Maybe,5,Strongly Agree,Agree,Agree,Reasonable,Student,65,5,2,3.038461538,10
+Female,15-25,Government,OPD (Doctor Consultation ),Less than 15 minutes,Agree,Neutral,Agree,4,2,Rude staff behavior,Maybe,3,Disagree,Neutral,Neutral,Cheap,Student,65,3,4,3.038461538,22
+Female,15-25,Private,Emergency,15-30 minutes,Agree,Neutral,Neutral,4,3,Short consultation,Yes,2,Disagree,Agree,Strongly Agree,Reasonable,Student,65,4,5,3.038461538,22
+Male,15-25,Private,Follow-up/Routine Checkup,15-30 minutes,Agree,Agree,Agree,4,3,Long lines,Maybe,3,Disagree,Strongly Disagree,Agree,Cheap,Private Job,65,3,3,3.038461538,22
+Male,15-25,Private,OPD (Doctor Consultation ),30-60 minutes,Neutral,Neutral,Neutral,5,3,Long lines,Yes,2,Agree,Strongly Agree,Neutral,Reasonable,Student,65,4,3,3.038461538,45
+Female,15-25,Government,OPD (Doctor Consultation ),Less than 15 minutes,Agree,Strongly Agree,Neutral,4,2,Short consultation,Yes,2,Neutral,Neutral,Disagree,Reasonable,Student,65,1,4,3.038461538,22
+Male,15-25,Private clinic,OPD (Doctor Consultation ),15-30 minutes,Neutral,Agree,Neutral,1,2,Long lines,Yes,3,Agree,Agree,Agree,Reasonable,Government Job,65,3,2,3.038461538,22
+Male,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Neutral,Agree,Agree,3,1,Long lines,Maybe,3,Disagree,Strongly Agree,Agree,Reasonable,Private Job,65,4,5,3.038461538,45
+Male,15-25,Private clinic,OPD (Doctor Consultation ),Less than 15 minutes,Agree,Neutral,Strongly Agree,3,2,Rude staff behavior,Maybe,4,Neutral,Agree,Neutral,Expensive,Student,65,2,2,3.038461538,10
+Male,25-35,Private,Follow-up/Routine Checkup,15-30 minutes,Agree,Strongly Agree,Neutral,4,2,Short consultation,Maybe,4,Agree,Strongly Disagree,Strongly Agree,Cheap,Business,65,3,4,3.038461538,22
+Female,15-25,Government,OPD (Doctor Consultation ),15-30 minutes,Agree,Agree,Neutral,1,3,Long lines,Yes,3,Neutral,Neutral,Agree,Expensive,Student,30,5,4,3.038461538,22
+Male,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Agree,Strongly Agree,Agree,4,2,Cost,No,3,Strongly Agree,Agree,Strongly Agree,Reasonable,Student,65,5,3,3.038461538,10
+Male,15-25,Government,OPD (Doctor Consultation ),Less than 15 minutes,Neutral,Agree,Disagree,3,3,Short consultation,Yes,3,Agree,Strongly Agree,Disagree,Reasonable,Private Job,65,4,3,3.038461538,10
+Male,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Neutral,Strongly Agree,Neutral,2,3,Short consultation,Maybe,3,Agree,Agree,Disagree,Cheap,Student,65,3,3,3.038461538,22
+Male,15-25,Private,OPD (Doctor Consultation ),More than 1 hour,Neutral,Agree,Strongly Agree,1,2,Rude staff behavior,Yes,3,Agree,Agree,Strongly Disagree,Reasonable,Self-Employed,30,5,2,3.038461538,45
+Male,15-25,Private clinic,OPD (Doctor Consultation ),15-30 minutes,Strongly Agree,Strongly Disagree,Neutral,3,3,Long lines,Maybe,5,Neutral,Agree,Agree,Reasonable,Student,65,4,3,3.038461538,10
+Male,15-25,Government,Emergency,15-30 minutes,Neutral,Agree,Neutral,3,3,Long lines,No,2,Agree,Neutral,Agree,Reasonable,Student,65,1,4,3.038461538,22
+Female,15-25,Private clinic,Follow-up/Routine Checkup,Less than 15 minutes,Agree,Strongly Agree,Strongly Agree,5,2,Short consultation,Yes,3,Neutral,Agree,Disagree,Expensive,Business,65,2,1,3.038461538,10
+Male,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Agree,Agree,Agree,2,2,Long lines,Yes,3,Neutral,Agree,Strongly Disagree,Expensive,Student,65,5,3,3.038461538,45
+Male,15-25,Government,Follow-up/Routine Checkup,30-60 minutes,Agree,Strongly Disagree,Strongly Agree,3,3,Long lines,Maybe,4,Neutral,Neutral,Agree,Reasonable,Student,65,3,3,3.038461538,22
+Male,15-25,Private,In-Patient (Admitted/Hospitalized),Less than 15 minutes,Neutral,Agree,Agree,4,3,Cost,Maybe,4,Neutral,Neutral,Agree,Reasonable,Student,30,4,2,3.038461538,10
+Male,15-25,Government,OPD (Doctor Consultation ),15-30 minutes,Agree,Agree,Neutral,4,3,Short consultation,Maybe,3,Agree,Disagree,Neutral,Very expensive,Student,65,3,4,3.038461538,22
+Female,15-25,Private,Follow-up/Routine Checkup,More than 1 hour,Agree,Strongly Agree,Disagree,1,3,Long lines,Yes,2,Neutral,Neutral,Strongly Agree,Expensive,Student,65,4,4,3.038461538,45
+Female,25-35,Government,In-Patient (Admitted/Hospitalized),Less than 15 minutes,Agree,Agree,Neutral,4,3,Long lines,Maybe,3,Disagree,Strongly Agree,Neutral,Reasonable,Student,65,3,3,3.038461538,22
+Female,15-25,Private,Follow-up/Routine Checkup,15-30 minutes,Agree,Strongly Agree,Neutral,1,2,Cost,Yes,3,Disagree,Agree,Neutral,Expensive,Student,65,3,2,3.038461538,22
+Male,15-25,Private,Emergency,15-30 minutes,Strongly Agree,Neutral,Disagree,1,2,Short consultation,Yes,4,Strongly Agree,Agree,Neutral,Reasonable,Student,65,5,2,3.038461538,22
+Male,15-25,Private,OPD (Doctor Consultation ),30-60 minutes,Neutral,Agree,Neutral,3,3,Long lines,Yes,3,Agree,Strongly Agree,Strongly Agree,Expensive,Private Job,30,3,4,3.038461538,22
+Male,15-25,Government,Follow-up/Routine Checkup,30-60 minutes,Neutral,Agree,Disagree,4,3,Long lines,Yes,2,Disagree,Neutral,Agree,Reasonable,Student,65,3,2,3.038461538,45
+Female,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Strongly Disagree,Strongly Disagree,Strongly Disagree,3,3,Long lines,Maybe,4,Neutral,Agree,Agree,Expensive,Student,65,1,1,3.038461538,22
+Female,15-25,Private clinic,OPD (Doctor Consultation ),Less than 15 minutes,Strongly Agree,Strongly Agree,Strongly Agree,1,3,,Yes,5,Strongly Agree,Strongly Agree,Strongly Agree,Reasonable,Student,65,5,5,3.038461538,10
+Male,25-35,Private clinic,OPD (Doctor Consultation ),15-30 minutes,Agree,Strongly Agree,Strongly Agree,3,3,Cost,Maybe,3,Strongly Agree,Agree,Agree,Expensive,Private Job,30,4,5,3.038461538,22
+Male,15-25,Private clinic,OPD (Doctor Consultation ),15-30 minutes,Agree,Strongly Agree,Agree,4,3,Long lines,Yes,4,Agree,Agree,Agree,Reasonable,Student,65,4,4,3.038461538,22
+Male,15-25,Government,OPD (Doctor Consultation ),15-30 minutes,Neutral,Neutral,Neutral,3,2,Short consultation,Maybe,3,Neutral,Neutral,Neutral,Expensive,Student,65,3,3,3.038461538,22
+Male,15-25,Private,OPD (Doctor Consultation ),Less than 15 minutes,Neutral,Neutral,Agree,3,2,Long lines,Maybe,3,Neutral,Neutral,Neutral,Reasonable,Student,65,3,4,3.038461538,10
+Female,15-25,Government,OPD (Doctor Consultation ),15-30 minutes,Agree,Neutral,Neutral,3,2,Rude staff behavior,Maybe,3,Neutral,Neutral,Neutral,Reasonable,Student,65,4,3,3.038461538,22
+Male,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Agree,Agree,Agree,4,2,Cost,Maybe,4,Neutral,Agree,Agree,Reasonable,Student,65,4,4,3.038461538,22
+Male,15-25,Government,OPD (Doctor Consultation ),15-30 minutes,Agree,Agree,Disagree,4,3,Long lines,Yes,4,Strongly Disagree,Agree,Agree,Expensive,Student,65,4,2,3.038461538,22
+Male,15-25,Government,OPD (Doctor Consultation ),Less than 15 minutes,Neutral,Strongly Disagree,Strongly Disagree,5,1,Short consultation,No,1,Neutral,Neutral,Disagree,Reasonable,Youtuber & Influencer,65,3,1,3.038461538,10
+Male,15-25,Government,OPD (Doctor Consultation ),15-30 minutes,Agree,Agree,Agree,4,3,Short consultation,Yes,3,Agree,Strongly Agree,Agree,Reasonable,Student,65,4,4,3.038461538,22
+Female,25-35,Private,Follow-up/Routine Checkup,15-30 minutes,Strongly Agree,Disagree,Disagree,2,1,,No,3,Agree,Disagree,Disagree,Cheap,Self-Employed,30,5,2,3.038461538,22
+Female,15-25,Private clinic,Emergency,Less than 15 minutes,Agree,Agree,Agree,4,3,,Yes,3,Agree,Agree,Agree,Reasonable,Student,65,4,4,3.038461538,10
+Female,25-35,Private,OPD (Doctor Consultation ),Less than 15 minutes,Neutral,Agree,Strongly Disagree,2,3,Rude staff behavior,Maybe,3,Strongly Disagree,Agree,Disagree,Reasonable,Private Job,30,3,1,3.038461538,10
+Female,15-25,Private clinic,OPD (Doctor Consultation ),15-30 minutes,Neutral,Strongly Disagree,Strongly Agree,4,2,,Maybe,3,Agree,Agree,Strongly Disagree,Reasonable,Student,65,3,5,3.038461538,22
+Male,15-25,Private,In-Patient (Admitted/Hospitalized),30-60 minutes,Agree,Agree,Neutral,3,2,Long lines,Maybe,3,Neutral,Agree,Agree,Expensive,Student,65,4,3,3.038461538,45
+Female,15-25,Private,Follow-up/Routine Checkup,15-30 minutes,Agree,Agree,Neutral,4,2,Long lines,Yes,3,Neutral,Agree,Agree,Reasonable,Student,65,4,3,3.038461538,22
+Male,15-25,Private,In-Patient (Admitted/Hospitalized),Less than 15 minutes,Agree,Neutral,Agree,1,3,Short consultation,Yes,3,Agree,Agree,Agree,Expensive,Student,65,4,4,3.038461538,10
+Male,15-25,Private,In-Patient (Admitted/Hospitalized),Less than 15 minutes,Strongly Agree,Strongly Agree,Strongly Agree,1,3,Cost,Yes,5,Strongly Disagree,Strongly Agree,Strongly Agree,Expensive,Student,65,5,5,3.038461538,10
+Male,15-25,Private,Follow-up/Routine Checkup,15-30 minutes,Strongly Agree,Strongly Agree,Strongly Agree,1,3,Long lines,Yes,5,Strongly Agree,Strongly Agree,Strongly Agree,Expensive,Student,65,5,5,3.038461538,22
+Male,15-25,Government,OPD (Doctor Consultation ),15-30 minutes,Agree,Neutral,Disagree,3,2,Long lines,Maybe,2,Agree,Agree,Neutral,Reasonable,Student,65,4,2,3.038461538,22
+Female,25-35,Private,Follow-up/Routine Checkup,15-30 minutes,Agree,Agree,Neutral,4,3,Cost,Yes,3,Agree,Agree,Agree,Expensive,Student,30,4,3,3.038461538,22
+Female,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Agree,Agree,Agree,3,1,Cost,Maybe,3,Neutral,Neutral,Agree,Reasonable,Student,65,4,4,3.038461538,22
+Male,25-35,Government,OPD (Doctor Consultation ),15-30 minutes,Neutral,Agree,Neutral,4,2,Long lines,Maybe,4,Agree,Agree,Agree,Expensive,Private Job,30,3,3,3.038461538,22
+Male,15-25,Private clinic,OPD (Doctor Consultation ),More than 1 hour,Neutral,Neutral,Neutral,4,3,Short consultation,Maybe,3,Neutral,Agree,Agree,Reasonable,Self-Employed,65,3,3,3.038461538,75
+Male,15-25,Private,OPD (Doctor Consultation ),Less than 15 minutes,Agree,Agree,Agree,4,2,Cost,Maybe,4,Neutral,Strongly Agree,Strongly Agree,Expensive,Business,65,4,4,3.038461538,10
+Male,25-35,Government,Follow-up/Routine Checkup,15-30 minutes,Strongly Agree,Agree,Agree,4,3,Long lines,Yes,4,Agree,Strongly Agree,Strongly Agree,Cheap,Private Job,30,5,4,3.038461538,22
+Female,25-35,Private clinic,Follow-up/Routine Checkup,Less than 15 minutes,Neutral,Strongly Agree,Agree,4,3,Cost,Yes,5,Agree,Agree,Agree,Expensive,Government Job,30,3,4,3.038461538,10
+Female,15-25,Private clinic,In-Patient (Admitted/Hospitalized),Less than 15 minutes,Neutral,Strongly Agree,Agree,4,3,Long lines,Yes,3,Agree,Agree,Agree,Reasonable,Student,65,3,4,3.038461538,10
+Male,15-25,Government,OPD (Doctor Consultation ),Less than 15 minutes,Agree,Strongly Agree,Neutral,4,3,Long lines,Yes,4,Neutral,Strongly Agree,Agree,Reasonable,Student,65,4,3,3.038461538,10
+Female,15-25,Private clinic,In-Patient (Admitted/Hospitalized),30-60 minutes,Agree,Strongly Agree,Agree,1,3,,Yes,4,Agree,Strongly Agree,Strongly Agree,Reasonable,Private Job,65,4,4,3.038461538,45
+Female,15-25,Private,In-Patient (Admitted/Hospitalized),Less than 15 minutes,Strongly Agree,Agree,Strongly Agree,1,2,Short consultation,Yes,5,Strongly Agree,Strongly Agree,Agree,Expensive,Student,65,5,5,3.038461538,10
+Male,15-25,Private,OPD (Doctor Consultation ),30-60 minutes,Neutral,Agree,Agree,3,3,Cost,Yes,3,Neutral,Neutral,Neutral,Reasonable,Student,65,3,4,3.038461538,45
+Female,15-25,Private,Follow-up/Routine Checkup,15-30 minutes,Agree,Agree,Agree,4,3,,Yes,4,Neutral,Agree,Agree,Reasonable,Private Job,65,4,4,3.038461538,22
+Male,15-25,Private clinic,OPD (Doctor Consultation ),15-30 minutes,Agree,Agree,Neutral,4,3,Long lines,Yes,3,Disagree,Agree,Agree,Reasonable,Student,65,4,3,3.038461538,22
+Female,15-25,Private,Follow-up/Routine Checkup,30-60 minutes,Neutral,Neutral,Neutral,3,2,Cost,Maybe,2,Neutral,Neutral,Neutral,Very expensive,Private Job,65,3,3,3.038461538,45
+Male,15-25,Private,OPD (Doctor Consultation ),Less than 15 minutes,Agree,Strongly Agree,Agree,4,3,,Yes,5,Neutral,Agree,Agree,Reasonable,Student,65,4,4,3.038461538,10
+Male,15-25,Private clinic,OPD (Doctor Consultation ),Less than 15 minutes,Strongly Disagree,Agree,Disagree,5,3,,Yes,4,Strongly Disagree,Neutral,Disagree,Very expensive,Student,65,1,2,3.038461538,10
+Female,15-25,Private,OPD (Doctor Consultation ),Less than 15 minutes,Disagree,Agree,Agree,4,3,Long lines,Yes,2,Neutral,Agree,Neutral,Reasonable,Student,65,2,4,3.038461538,10
+Female,15-25,Private,OPD (Doctor Consultation ),Less than 15 minutes,Neutral,Agree,Disagree,3,1,Cost,No,2,Disagree,Neutral,Disagree,Expensive,Student,65,3,2,3.038461538,10
+Male,15-25,Government,OPD (Doctor Consultation ),Less than 15 minutes,Strongly Disagree,Strongly Disagree,Strongly Disagree,2,3,Long lines,Yes,2,Strongly Disagree,Strongly Disagree,Neutral,Very expensive,Student,65,1,1,3.038461538,10
+Female,25-35,Private clinic,OPD (Doctor Consultation ),Less than 15 minutes,Neutral,Neutral,Neutral,3,2,Short consultation,Maybe,3,Agree,Agree,Agree,Reasonable,Student,30,3,3,3.038461538,10
+Female,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Agree,Agree,Agree,4,3,Short consultation,Yes,3,Neutral,Agree,Agree,Reasonable,Student,65,4,4,3.038461538,22
+Male,25-35,Government,OPD (Doctor Consultation ),30-60 minutes,Neutral,Neutral,Disagree,4,1,Long lines,Yes,3,Disagree,Neutral,Neutral,Very expensive,Student,30,3,2,3.038461538,45
+Male,15-25,Government,Follow-up/Routine Checkup,15-30 minutes,Neutral,Agree,Strongly Disagree,4,2,Long lines,Yes,3,Disagree,Neutral,Agree,Reasonable,Student,65,3,1,3.038461538,22
+Male,25-35,Private clinic,OPD (Doctor Consultation ),30-60 minutes,Neutral,Neutral,Neutral,3,1,Long lines,No,2,Disagree,Agree,Agree,Expensive,Homemaker,30,3,3,3.038461538,45
+Male,15-25,Government,Follow-up/Routine Checkup,Less than 15 minutes,Neutral,Agree,Neutral,4,3,Long lines,Yes,2,Neutral,Agree,Agree,Cheap,Student,65,3,3,3.038461538,10
+Male,15-25,Government,In-Patient (Admitted/Hospitalized),15-30 minutes,Neutral,Disagree,Neutral,3,1,,Yes,3,Neutral,Neutral,Neutral,Cheap,Student,65,3,3,3.038461538,22
+Male,25-35,Private,OPD (Doctor Consultation ),15-30 minutes,Neutral,Neutral,Neutral,3,2,Short consultation,Maybe,2,Neutral,Neutral,Neutral,Reasonable,Self-Employed,30,3,3,3.038461538,22
+Male,15-25,Government,Follow-up/Routine Checkup,Less than 15 minutes,Agree,Agree,Neutral,4,3,Long lines,Maybe,3,Neutral,Agree,Agree,Cheap,Student,65,4,3,3.038461538,10
+Male,35-45,Private,OPD (Doctor Consultation ),15-30 minutes,Strongly Agree,Strongly Agree,Strongly Agree,1,2,Cost,Yes,5,Agree,Strongly Agree,Strongly Agree,Very expensive,Private Job,65,5,5,3.038461538,22
+Female,15-25,Private clinic,OPD (Doctor Consultation ),15-30 minutes,Agree,Strongly Agree,Neutral,1,3,Short consultation,Yes,4,Neutral,Strongly Agree,Agree,Reasonable,Private Job,65,4,3,3.038461538,22
+Female,15-25,Government,OPD (Doctor Consultation ),30-60 minutes,Agree,Agree,Agree,4,3,,Maybe,4,Neutral,Agree,Agree,Reasonable,Private Job,65,4,4,3.038461538,45
+Female,15-25,Private,Follow-up/Routine Checkup,Less than 15 minutes,Strongly Agree,Strongly Agree,Strongly Agree,4,3,Short consultation,Yes,2,Agree,Agree,Agree,Reasonable,Student,65,5,5,3.038461538,10
+Male,15-25,Private,In-Patient (Admitted/Hospitalized),30-60 minutes,Agree,Agree,Agree,1,2,,Yes,5,Neutral,Agree,Agree,Reasonable,Student,65,4,4,3.038461538,45
+Female,15-25,Private,Follow-up/Routine Checkup,More than 1 hour,Neutral,Neutral,Neutral,3,2,,Maybe,3,Neutral,Neutral,Neutral,Reasonable,Student,65,3,3,3.038461538,75
+Female,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Strongly Agree,Strongly Agree,Strongly Agree,1,3,Cost,Yes,5,Strongly Agree,Strongly Agree,Strongly Agree,Reasonable,Student,65,5,5,3.038461538,22
+Male,15-25,Government,Emergency,15-30 minutes,Neutral,Neutral,Neutral,3,2,,Yes,3,Neutral,Neutral,Neutral,Cheap,Student,65,3,3,3.038461538,22
+Male,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Neutral,Neutral,Disagree,4,3,Short consultation,Yes,2,Disagree,Strongly Disagree,Neutral,Reasonable,Student,65,3,2,3.038461538,22
+Female,15-25,Government,OPD (Doctor Consultation ),30-60 minutes,Neutral,Agree,Neutral,3,2,Long lines,Maybe,3,Disagree,Neutral,Neutral,Reasonable,Student,65,3,3,3.038461538,45
+Male,15-25,Government,Emergency,Less than 15 minutes,Neutral,Agree,Disagree,2,3,,Maybe,2,Disagree,Agree,Neutral,Reasonable,Student,65,3,2,3.038461538,10
+Male,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Neutral,Strongly Agree,Agree,1,3,Long lines,Yes,5,Agree,Strongly Agree,Strongly Agree,Expensive,Business,65,3,4,3.038461538,22
+Male,15-25,Private,OPD (Doctor Consultation ),30-60 minutes,Agree,Neutral,Neutral,2,2,Rude staff behavior,Maybe,2,Disagree,Disagree,Neutral,Reasonable,Student,65,4,3,3.038461538,45
+Male,15-25,Private clinic,OPD (Doctor Consultation ),Less than 15 minutes,Neutral,Neutral,Agree,3,3,Rude staff behavior,Yes,3,Neutral,Neutral,Agree,Reasonable,Student,65,3,4,3.038461538,10
+Male,15-25,Private,Follow-up/Routine Checkup,15-30 minutes,Agree,Agree,Neutral,4,3,Long lines,Yes,3,Neutral,Neutral,Agree,Expensive,Student,65,4,3,3.038461538,22
+Male,15-25,Government,OPD (Doctor Consultation ),30-60 minutes,Disagree,Neutral,Strongly Disagree,4,2,Long lines,Maybe,3,Disagree,Disagree,Agree,Reasonable,Student,65,2,1,3.038461538,45
+Male,15-25,Government,Emergency,15-30 minutes,Neutral,Agree,Neutral,4,2,Long lines,Maybe,3,Neutral,Agree,Agree,Expensive,Student,65,3,3,3.038461538,22
+Male,15-25,Private,OPD (Doctor Consultation ),Less than 15 minutes,Disagree,Agree,Neutral,4,2,Cost,Maybe,3,Disagree,Agree,Agree,Expensive,Student,65,2,3,3.038461538,10
+Male,15-25,Private,OPD (Doctor Consultation ),More than 1 hour,Neutral,Strongly Disagree,Agree,3,1,Rude staff behavior,No,2,Disagree,Neutral,Disagree,Reasonable,Student,65,3,4,3.038461538,75
+Female,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Neutral,Agree,Disagree,4,2,Cost,Yes,3,Neutral,Agree,Agree,Expensive,Student,65,3,2,3.038461538,22
+Female,15-25,Private,Follow-up/Routine Checkup,30-60 minutes,Agree,Strongly Agree,Disagree,1,2,Short consultation,Yes,5,Neutral,Strongly Agree,Strongly Agree,Expensive,Student,65,4,2,3.038461538,45
+Female,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Agree,Strongly Agree,Strongly Agree,1,3,Cost,Yes,5,Neutral,Agree,Agree,Expensive,Student,65,4,5,3.038461538,22
+Female,25-35,Government,OPD (Doctor Consultation ),15-30 minutes,Neutral,Agree,Neutral,4,2,,Maybe,3,Neutral,Neutral,Agree,Reasonable,Student,30,3,3,3.038461538,22
+Male,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Neutral,Disagree,Neutral,3,1,Short consultation,No,3,Neutral,Neutral,Neutral,Cheap,Student,65,3,3,3.038461538,22
+Male,15-25,Private,OPD (Doctor Consultation ),Less than 15 minutes,Agree,Neutral,Neutral,3,3,Rude staff behavior,Yes,3,Agree,Neutral,Neutral,Reasonable,Student,65,4,3,3.038461538,10
+Female,15-25,Private,OPD (Doctor Consultation ),15-30 minutes,Strongly Agree,Strongly Agree,Agree,1,3,Long lines,Yes,5,Strongly Agree,Strongly Agree,Strongly Agree,Very expensive,Student,65,5,4,3.038461538,22
+Male,15-25,Private,OPD (Doctor Consultation ),Less than 15 minutes,Strongly Disagree,Strongly Disagree,Strongly Disagree,1,3,Long lines,Yes,5,Strongly Disagree,Strongly Disagree,Strongly Disagree,Very expensive,Student,65,1,1,3.038461538,10

@@ -46,7 +46,7 @@ def predict():
         )
     }
 
-       # Convert input into DataFrame
+    # Convert input into DataFrame
     input_data = pd.DataFrame([data])
 
     # Arrange columns in training order
@@ -95,7 +95,10 @@ def predict():
 
     result = label_mapping[int(prediction[0])]
 
-    return f"Recommendation: {result}"
+    # Render the styled result page instead of returning raw text,
+    # so result.html (with the color-coded verdict stamp) actually shows.
+    return render_template("result.html", result=result)
+
+
 if __name__ == "__main__":
     app.run(debug=True)
-

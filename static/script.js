@@ -51,3 +51,19 @@ if (form) {
     }
   });
 }
+
+// Assessment form (/predict): give clear feedback on submit.
+// This is a real server-rendered POST (not fetch) — we just
+// disable the button and swap its label before the browser
+// navigates away, so the click feels acknowledged.
+const predictForm = document.getElementById('predict-form');
+
+if (predictForm) {
+  predictForm.addEventListener('submit', () => {
+    const btn = document.getElementById('predict-submit-btn');
+    if (!btn) return;
+    btn.disabled = true;
+    btn.classList.add('is-loading');
+    btn.textContent = 'Analyzing your answers…';
+  });
+}

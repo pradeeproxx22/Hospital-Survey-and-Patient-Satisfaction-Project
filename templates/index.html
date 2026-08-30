@@ -4,254 +4,317 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Healthcare Service Recommendation</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body>
 
-    <h1>Healthcare Service Recommendation</h1>
+    <header class="site-header compact-header">
+        <div class="wrap header-row">
+            <div class="brand"><strong>HSQ</strong> / Healthcare Service Quality Study</div>
+        </div>
+    </header>
 
-    <p>Enter patient details to get a recommendation.</p>
+    <main>
+        <section class="page-intro">
+            <div class="wrap">
+                <div class="eyebrow">Patient Assessment</div>
+                <h1>Tell us about your visit</h1>
+                <p class="lede">Answer a few questions about your most recent hospital visit and we'll generate a personalised service recommendation.</p>
+            </div>
+        </section>
 
-    <form action="/predict" method="POST">
+        <div class="wrap">
+            <form action="/predict" method="POST" id="predict-form">
 
-        <!-- 1. Gender -->
-        <label>Gender:</label>
-        <select name="Gender" required>
-            <option value="0">Female</option>
-            <option value="1">Male</option>
-        </select>
+                <fieldset class="form-section">
+                    <legend>
+                        <span class="legend-eyebrow">Section 1</span>
+                        <span class="legend-title">About you</span>
+                    </legend>
+                    <div class="section-body">
 
-        <br><br>
+                        <div class="field">
+                            <label>Gender</label>
+                            <div class="segmented">
+                                <input type="radio" id="gender0" name="Gender" value="0" required>
+                                <label for="gender0">Female</label>
+                                <input type="radio" id="gender1" name="Gender" value="1" required>
+                                <label for="gender1">Male</label>
+                            </div>
+                        </div>
 
+                        <div class="field">
+                            <label for="age1">Age</label>
+                            <input type="number" id="age1" name="Age1" min="15" max="100" placeholder="e.g. 34" required>
+                        </div>
 
-        <!-- 2. Hospital Type -->
-        <label>Hospital Type:</label>
-        <select name="Hospital Type" required>
-            <option value="0">Government</option>
-            <option value="1">Private</option>
-            <option value="2">Private clinic</option>
-        </select>
+                        <div class="field span-2">
+                            <label for="occupation">Occupation</label>
+                            <select id="occupation" name="Occupation" required>
+                                <option value="" disabled selected>Select one</option>
+                                <option value="0">Business</option>
+                                <option value="1">Government Job</option>
+                                <option value="2">Homemaker</option>
+                                <option value="3">Private Job</option>
+                                <option value="4">Self-Employed</option>
+                                <option value="5">Student</option>
+                                <option value="6">Youtuber &amp; Influencer</option>
+                            </select>
+                        </div>
 
-        <br><br>
+                    </div>
+                </fieldset>
 
+                <fieldset class="form-section">
+                    <legend>
+                        <span class="legend-eyebrow">Section 2</span>
+                        <span class="legend-title">Your visit</span>
+                    </legend>
+                    <div class="section-body">
 
-        <!-- 3. Visit Type -->
-        <label>Visit Type:</label>
-        <select name="Visit Type" required>
-            <option value="0">Emergency</option>
-            <option value="1">Follow-up/Routine Checkup</option>
-            <option value="2">In-Patient (Admitted/Hospitalized)</option>
-            <option value="3">OPD (Doctor Consultation )</option>
-        </select>
+                        <div class="field span-2">
+                            <label>Hospital type</label>
+                            <div class="choice-grid">
+                                <input type="radio" id="ht0" name="Hospital Type" value="0" required>
+                                <label for="ht0">Government</label>
+                                <input type="radio" id="ht1" name="Hospital Type" value="1" required>
+                                <label for="ht1">Private</label>
+                                <input type="radio" id="ht2" name="Hospital Type" value="2" required>
+                                <label for="ht2">Private clinic</label>
+                            </div>
+                        </div>
 
-        <br><br>
+                        <div class="field span-2">
+                            <label>Visit type</label>
+                            <div class="choice-grid">
+                                <input type="radio" id="vt0" name="Visit Type" value="0" required>
+                                <label for="vt0">Emergency</label>
+                                <input type="radio" id="vt1" name="Visit Type" value="1" required>
+                                <label for="vt1">Follow-up / Routine checkup</label>
+                                <input type="radio" id="vt2" name="Visit Type" value="2" required>
+                                <label for="vt2">In-patient (admitted / hospitalized)</label>
+                                <input type="radio" id="vt3" name="Visit Type" value="3" required>
+                                <label for="vt3">OPD (doctor consultation)</label>
+                            </div>
+                        </div>
 
+                        <div class="field span-2">
+                            <label>Waiting time</label>
+                            <div class="choice-grid">
+                                <input type="radio" id="wt0" name="Waiting Time" value="0" required>
+                                <label for="wt0">15–30 minutes</label>
+                                <input type="radio" id="wt1" name="Waiting Time" value="1" required>
+                                <label for="wt1">30–60 minutes</label>
+                                <input type="radio" id="wt2" name="Waiting Time" value="2" required>
+                                <label for="wt2">Less than 15 minutes</label>
+                                <input type="radio" id="wt3" name="Waiting Time" value="3" required>
+                                <label for="wt3">More than 1 hour</label>
+                            </div>
+                        </div>
 
-        <!-- 4. Waiting Time -->
-        <label>Waiting Time:</label>
-        <select name="Waiting Time" required>
-            <option value="0">15-30 minutes</option>
-            <option value="1">30-60 minutes</option>
-            <option value="2">Less than 15 minutes</option>
-            <option value="3">More than 1 hour</option>
-        </select>
+                        <div class="field span-2">
+                            <label>Charges</label>
+                            <div class="choice-grid">
+                                <input type="radio" id="ch0" name="Charges" value="0" required>
+                                <label for="ch0">Cheap</label>
+                                <input type="radio" id="ch1" name="Charges" value="1" required>
+                                <label for="ch1">Expensive</label>
+                                <input type="radio" id="ch2" name="Charges" value="2" required>
+                                <label for="ch2">Reasonable</label>
+                                <input type="radio" id="ch3" name="Charges" value="3" required>
+                                <label for="ch3">Very expensive</label>
+                            </div>
+                        </div>
 
-        <br><br>
+                        <div class="field span-2">
+                            <label>Biggest problem</label>
+                            <div class="choice-grid">
+                                <input type="radio" id="bp0" name="Biggest Problem" value="0" required>
+                                <label for="bp0">Cost</label>
+                                <input type="radio" id="bp1" name="Biggest Problem" value="1" required>
+                                <label for="bp1">Long lines</label>
+                                <input type="radio" id="bp2" name="Biggest Problem" value="2" required>
+                                <label for="bp2">Rude staff behavior</label>
+                                <input type="radio" id="bp3" name="Biggest Problem" value="3" required>
+                                <label for="bp3">Short consultation</label>
+                            </div>
+                        </div>
 
+                    </div>
+                </fieldset>
 
-        <!-- 5. Nurse Staff Behaviour -->
-        <label>Nurse Staff Behaviour:</label>
-        <select name="Nurse Staff Behaviour" required>
-            <option value="0">Agree</option>
-            <option value="1">Disagree</option>
-            <option value="2">Neutral</option>
-            <option value="3">Strongly Agree</option>
-            <option value="4">Strongly Disagree</option>
-        </select>
+                <fieldset class="form-section">
+                    <legend>
+                        <span class="legend-eyebrow">Section 3</span>
+                        <span class="legend-title">Your experience</span>
+                    </legend>
+                    <div class="section-body">
 
-        <br><br>
+                        <div class="field span-2">
+                            <label>Nurse staff behaviour</label>
+                            <div class="segmented">
+                                <input type="radio" id="nsb3" name="Nurse Staff Behaviour" value="3" required><label for="nsb3">Strongly agree</label>
+                                <input type="radio" id="nsb0" name="Nurse Staff Behaviour" value="0" required><label for="nsb0">Agree</label>
+                                <input type="radio" id="nsb2" name="Nurse Staff Behaviour" value="2" required><label for="nsb2">Neutral</label>
+                                <input type="radio" id="nsb1" name="Nurse Staff Behaviour" value="1" required><label for="nsb1">Disagree</label>
+                                <input type="radio" id="nsb4" name="Nurse Staff Behaviour" value="4" required><label for="nsb4">Strongly disagree</label>
+                            </div>
+                        </div>
 
+                        <div class="field span-2">
+                            <label>Doctor communication</label>
+                            <div class="segmented">
+                                <input type="radio" id="dc3" name="Doctor Communication" value="3" required><label for="dc3">Strongly agree</label>
+                                <input type="radio" id="dc0" name="Doctor Communication" value="0" required><label for="dc0">Agree</label>
+                                <input type="radio" id="dc2" name="Doctor Communication" value="2" required><label for="dc2">Neutral</label>
+                                <input type="radio" id="dc1" name="Doctor Communication" value="1" required><label for="dc1">Disagree</label>
+                                <input type="radio" id="dc4" name="Doctor Communication" value="4" required><label for="dc4">Strongly disagree</label>
+                            </div>
+                        </div>
 
-        <!-- 6. Doctor Communication -->
-        <label>Doctor Communication:</label>
-        <select name="Doctor Communication" required>
-            <option value="0">Agree</option>
-            <option value="1">Disagree</option>
-            <option value="2">Neutral</option>
-            <option value="3">Strongly Agree</option>
-            <option value="4">Strongly Disagree</option>
-        </select>
+                        <div class="field span-2">
+                            <label>Hospital cleanliness</label>
+                            <div class="segmented">
+                                <input type="radio" id="hc3" name="Hospital Cleanliness" value="3" required><label for="hc3">Strongly agree</label>
+                                <input type="radio" id="hc0" name="Hospital Cleanliness" value="0" required><label for="hc0">Agree</label>
+                                <input type="radio" id="hc2" name="Hospital Cleanliness" value="2" required><label for="hc2">Neutral</label>
+                                <input type="radio" id="hc1" name="Hospital Cleanliness" value="1" required><label for="hc1">Disagree</label>
+                                <input type="radio" id="hc4" name="Hospital Cleanliness" value="4" required><label for="hc4">Strongly disagree</label>
+                            </div>
+                        </div>
 
-        <br><br>
+                        <div class="field span-2">
+                            <label>Waiting area facilities</label>
+                            <div class="segmented">
+                                <input type="radio" id="waf3" name="Waiting Area Facilities" value="3" required><label for="waf3">Strongly agree</label>
+                                <input type="radio" id="waf0" name="Waiting Area Facilities" value="0" required><label for="waf0">Agree</label>
+                                <input type="radio" id="waf2" name="Waiting Area Facilities" value="2" required><label for="waf2">Neutral</label>
+                                <input type="radio" id="waf1" name="Waiting Area Facilities" value="1" required><label for="waf1">Disagree</label>
+                                <input type="radio" id="waf4" name="Waiting Area Facilities" value="4" required><label for="waf4">Strongly disagree</label>
+                            </div>
+                        </div>
 
+                        <div class="field span-2">
+                            <label>Respect for privacy</label>
+                            <div class="segmented">
+                                <input type="radio" id="rp3" name="Respect Privacy" value="3" required><label for="rp3">Strongly agree</label>
+                                <input type="radio" id="rp0" name="Respect Privacy" value="0" required><label for="rp0">Agree</label>
+                                <input type="radio" id="rp2" name="Respect Privacy" value="2" required><label for="rp2">Neutral</label>
+                                <input type="radio" id="rp1" name="Respect Privacy" value="1" required><label for="rp1">Disagree</label>
+                                <input type="radio" id="rp4" name="Respect Privacy" value="4" required><label for="rp4">Strongly disagree</label>
+                            </div>
+                        </div>
 
-        <!-- 7. Hospital Cleanliness -->
-        <label>Hospital Cleanliness:</label>
-        <select name="Hospital Cleanliness" required>
-            <option value="0">Agree</option>
-            <option value="1">Disagree</option>
-            <option value="2">Neutral</option>
-            <option value="3">Strongly Agree</option>
-            <option value="4">Strongly Disagree</option>
-        </select>
+                        <div class="field span-2">
+                            <label>Medicine explanation</label>
+                            <div class="segmented">
+                                <input type="radio" id="me3" name="Medicine Explanation" value="3" required><label for="me3">Strongly agree</label>
+                                <input type="radio" id="me0" name="Medicine Explanation" value="0" required><label for="me0">Agree</label>
+                                <input type="radio" id="me2" name="Medicine Explanation" value="2" required><label for="me2">Neutral</label>
+                                <input type="radio" id="me1" name="Medicine Explanation" value="1" required><label for="me1">Disagree</label>
+                                <input type="radio" id="me4" name="Medicine Explanation" value="4" required><label for="me4">Strongly disagree</label>
+                            </div>
+                        </div>
 
-        <br><br>
+                    </div>
+                </fieldset>
 
+                <fieldset class="form-section">
+                    <legend>
+                        <span class="legend-eyebrow">Section 4</span>
+                        <span class="legend-title">Your ratings</span>
+                    </legend>
+                    <div class="section-body">
 
-        <!-- 8. Overall Satisfaction -->
-        <label>Overall Satisfaction:</label>
-        <input type="number"
-               name="Overall Satisfaction"
-               min="1"
-               max="5"
-               required>
+                        <div class="field">
+                            <label>Overall satisfaction</label>
+                            <div class="star-rating" role="radiogroup" aria-label="Overall satisfaction rating">
+                                <input type="radio" id="os5" name="Overall Satisfaction" value="5" required><label for="os5" title="5"></label>
+                                <input type="radio" id="os4" name="Overall Satisfaction" value="4" required><label for="os4" title="4"></label>
+                                <input type="radio" id="os3" name="Overall Satisfaction" value="3" required><label for="os3" title="3"></label>
+                                <input type="radio" id="os2" name="Overall Satisfaction" value="2" required><label for="os2" title="2"></label>
+                                <input type="radio" id="os1" name="Overall Satisfaction" value="1" required><label for="os1" title="1"></label>
+                            </div>
+                        </div>
 
-        <br><br>
+                        <div class="field">
+                            <label>Treatment quality</label>
+                            <div class="star-rating" role="radiogroup" aria-label="Treatment quality rating">
+                                <input type="radio" id="tq5" name="Treatment Quality" value="5" required><label for="tq5" title="5"></label>
+                                <input type="radio" id="tq4" name="Treatment Quality" value="4" required><label for="tq4" title="4"></label>
+                                <input type="radio" id="tq3" name="Treatment Quality" value="3" required><label for="tq3" title="3"></label>
+                                <input type="radio" id="tq2" name="Treatment Quality" value="2" required><label for="tq2" title="2"></label>
+                                <input type="radio" id="tq1" name="Treatment Quality" value="1" required><label for="tq1" title="1"></label>
+                            </div>
+                        </div>
 
+                        <div class="field">
+                            <label>Return intention</label>
+                            <div class="star-rating" role="radiogroup" aria-label="Return intention rating">
+                                <input type="radio" id="ri5" name="Return Intention" value="5" required><label for="ri5" title="5"></label>
+                                <input type="radio" id="ri4" name="Return Intention" value="4" required><label for="ri4" title="4"></label>
+                                <input type="radio" id="ri3" name="Return Intention" value="3" required><label for="ri3" title="3"></label>
+                                <input type="radio" id="ri2" name="Return Intention" value="2" required><label for="ri2" title="2"></label>
+                                <input type="radio" id="ri1" name="Return Intention" value="1" required><label for="ri1" title="1"></label>
+                            </div>
+                        </div>
 
-        <!-- 9. Return Intention -->
-        <label>Return Intention:</label>
-        <input type="number"
-               name="Return Intention"
-               min="1"
-               max="5"
-               required>
+                    </div>
+                </fieldset>
 
-        <br><br>
+                <fieldset class="form-section">
+                    <legend>
+                        <span class="legend-eyebrow">Section 5</span>
+                        <span class="legend-title">Additional scores</span>
+                    </legend>
+                    <div class="section-body">
 
-        <label>Biggest Problem:</label>
-        <select name="Biggest Problem" required>
-        <option value="0">Cost</option>
-        <option value="1">Long lines</option>
-        <option value="2">Rude staff behavior</option>
-        <option value="3">Short consultation</option>
-    </select>
+                        <div class="field">
+                            <label for="wtn">Waiting time (number)</label>
+                            <input type="number" step="any" id="wtn" name="Waiting Time Number" placeholder="e.g. 25" required>
+                            <p class="field-hint">A raw numeric value, separate from the waiting-time range above.</p>
+                        </div>
 
-<br><br>
+                        <div class="field">
+                            <label for="nsbs">Nurse staff behaviour score</label>
+                            <input type="number" step="any" id="nsbs" name="Nurse Staff Behaviour Score" placeholder="Numeric score" required>
+                            <p class="field-hint">A raw numeric score, separate from the rating above.</p>
+                        </div>
 
+                        <div class="field">
+                            <label for="hcs">Hospital cleanliness score</label>
+                            <input type="number" step="any" id="hcs" name="Hospital Cleanliness Score" placeholder="Numeric score" required>
+                            <p class="field-hint">A raw numeric score, separate from the rating above.</p>
+                        </div>
 
-        <!-- 11. Treatment Quality -->
-        <label>Treatment Quality:</label>
-        <input type="number"
-               name="Treatment Quality"
-               min="1"
-               max="5"
-               required>
+                    </div>
+                </fieldset>
 
-        <br><br>
+                <div class="predict-submit">
+                    <button type="submit" class="btn-pill primary big" id="predict-submit-btn">Predict Recommendation</button>
+                    <span class="form-note">Takes about a minute — every field feeds the model.</span>
+                </div>
 
-         <label>Waiting Area Facilities:</label>
-<select name="Waiting Area Facilities" required>
-    <option value="0">Agree</option>
-    <option value="1">Disagree</option>
-    <option value="2">Neutral</option>
-    <option value="3">Strongly Agree</option>
-    <option value="4">Strongly Disagree</option>
-</select>
+            </form>
+        </div>
+    </main>
 
-<br><br>
-        
+    <footer class="site-footer">
+        <div class="wrap header-row" style="width:100%; display:flex; justify-content:space-between;">
+            <span>Healthcare Service Quality &amp; Patient Satisfaction</span>
+            <span>Prepared with Power BI</span>
+        </div>
+    </footer>
 
-        <!-- 13. Respect Privacy -->
-          <label>Respect Privacy:</label>
-<select name="Respect Privacy" required>
-    <option value="0">Agree</option>
-    <option value="1">Disagree</option>
-    <option value="2">Neutral</option>
-    <option value="3">Strongly Agree</option>
-    <option value="4">Strongly Disagree</option>
-</select>
-
-<br><br>  
-
-
-        <!-- 14. Medicine Explanation -->
-       <label>Medicine Explanation:</label>
-<select name="Medicine Explanation" required>
-    <option value="0">Agree</option>
-    <option value="1">Disagree</option>
-    <option value="2">Neutral</option>
-    <option value="3">Strongly Agree</option>
-    <option value="4">Strongly Disagree</option>
-</select>
-
-<br><br>
-
-
-        <!-- 15. Charges -->
-        <label>Charges:</label>
-        <select name="Charges" required>
-            <option value="0">Cheap</option>
-            <option value="1">Expensive</option>
-            <option value="2">Reasonable</option>
-            <option value="3">Very expensive</option>
-        </select>
-
-        <br><br>
-
-
-        <!-- 16. Occupation -->
-        <label>Occupation:</label>
-        <select name="Occupation" required>
-            <option value="0">Business</option>
-            <option value="1">Government Job</option>
-            <option value="2">Homemaker</option>
-            <option value="3">Private Job</option>
-            <option value="4">Self-Employed</option>
-            <option value="5">Student</option>
-            <option value="6">Youtuber & Influencer</option>
-        </select>
-
-        <br><br>
-
-
-        <!-- 17. Age1 -->
-        <label>Age:</label>
-        <input type="number"
-               name="Age1"
-               min="15"
-               max="100"
-               required>
-
-        <br><br>
-
-
-        <!-- 18. Nurse Staff Behaviour Score -->
-        <label>Nurse Staff Behaviour Score:</label>
-        <input type="number"
-               name="Nurse Staff Behaviour Score"
-               required>
-
-        <br><br>
-
-
-        <!-- 19. Hospital Cleanliness Score -->
-        <label>Hospital Cleanliness Score:</label>
-        <input type="number"
-               name="Hospital Cleanliness Score"
-               required>
-
-        <br><br>
-
-
-        <!-- 20. Waiting Time Number -->
-        <label>Waiting Time Number:</label>
-        <input type="number"
-               name="Waiting Time Number"
-               required>
-
-        <br><br>
-
-
-        <button type="submit">
-            Predict Recommendation
-        </button>
-
-    </form>
-<script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 
 </html>

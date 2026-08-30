@@ -4,22 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Healthcare Recommendation Result</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 
 <body>
 
-    <h1>Healthcare Recommendation</h1>
+    <header class="site-header compact-header">
+        <div class="wrap header-row">
+            <div class="brand"><strong>HSQ</strong> / Healthcare Service Quality Study</div>
+        </div>
+    </header>
 
-    <h2>Your Recommendation:</h2>
+    <main class="result-wrap">
+        <div class="wrap">
+            <div class="result-card">
 
-    <h1>{{ result }}</h1>
-    <a href="/" class="back-btn">
-        ← Go Back to Assessment
-    </a>
-    <br>
- 
+                {% if result == 'Yes' %}
+                <div class="result-icon positive">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20 6L9 17l-5-5"/>
+                    </svg>
+                </div>
+                {% elif result == 'No' %}
+                <div class="result-icon negative">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M18 6L6 18M6 6l12 12"/>
+                    </svg>
+                </div>
+                {% else %}
+                <div class="result-icon neutral">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M9.5 9a2.5 2.5 0 0 1 5 0c0 1.5-2.5 2-2.5 3.5"/>
+                        <circle cx="12" cy="17" r="0.6" fill="currentColor" stroke="none"/>
+                    </svg>
+                </div>
+                {% endif %}
+
+                <div class="result-eyebrow">Case File — Result</div>
+                <h1>Your recommendation</h1>
+
+                <div class="result-stamp
+                    {%- if result == 'Yes' %} positive
+                    {%- elif result == 'No' %} negative
+                    {%- else %} neutral
+                    {%- endif %}">{{ result }}</div>
+
+                <p class="result-sub">
+                    This suggestion is generated from your answers by our trained model.
+                    It's a guide, not a medical judgement — always follow advice from your
+                    own healthcare provider.
+                </p>
+
+                <div class="result-actions">
+                    <a href="/" class="btn-pill ghost">← Go back to assessment</a>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap header-row" style="width:100%; display:flex; justify-content:space-between;">
+            <span>Healthcare Service Quality &amp; Patient Satisfaction</span>
+            <span>Prepared with Power BI</span>
+        </div>
+    </footer>
 
 </body>
 
